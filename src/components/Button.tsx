@@ -4,7 +4,7 @@ interface ButtonProps {
 }
 
 export default function Button({
-  variant = "secondary",
+  variant = "primary",
   children = "Book Now",
 }: ButtonProps) {
   return (
@@ -15,9 +15,7 @@ export default function Button({
           : "border-yellow hover:bg-yellow bg-background"
       }`}
     >
-      <span className="text-primary text-center text-xl font-normal">
-        {children}
-      </span>
+      <span className="text-primary text-center font-normal">{children}</span>
     </div>
   );
 }
