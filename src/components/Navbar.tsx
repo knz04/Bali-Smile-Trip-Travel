@@ -9,27 +9,29 @@ export default function Navbar() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const languageRef = useRef<HTMLDivElement | null>(null);
+  const mobileLanguageRef = useRef<HTMLDivElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (event.target instanceof Node) {
-        // Close language dropdown
         if (
           isLanguageOpen &&
           languageRef.current &&
-          !languageRef.current.contains(event.target)
+          !languageRef.current.contains(event.target) &&
+          (!mobileLanguageRef.current ||
+            !mobileLanguageRef.current.contains(event.target))
         ) {
           setIsLanguageOpen(false);
         }
 
-        // Close mobile menu
         if (
           isMenuOpen &&
           menuRef.current &&
           !menuRef.current.contains(event.target)
         ) {
           setIsMenuOpen(false);
+          setIsLanguageOpen(false);
         }
       }
     }
@@ -43,6 +45,7 @@ export default function Navbar() {
   return (
     <nav className="flex w-full flex-col items-center justify-center">
       <div className="flex w-full flex-row items-center justify-between gap-x-4 px-4 py-3 lg:w-[90%] lg:gap-x-0">
+        {/*Logo*/}
         <div className="flex flex-row items-center justify-between gap-x-2 hover:cursor-pointer">
           <img
             src="/logo-transparent.png"
@@ -51,6 +54,7 @@ export default function Navbar() {
           />
           <p className="font-medium uppercase">Bali Smile Trip & Travel</p>
         </div>
+        {/*Nav*/}
         <div className="hidden flex-row items-center justify-between gap-x-8 lg:flex">
           <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
             Home
@@ -68,17 +72,7 @@ export default function Navbar() {
             Contact
           </p>
         </div>
-
-        <div
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          ref={ref}
-          className={clsx(
-            "flex rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200 lg:hidden",
-            isMenuOpen && "bg-neutral-200",
-          )}
-        >
-          <Menu color="#1c1b18" size={24} />
-        </div>
+        {/*Book now and language*/}
         <div className="hidden flex-row items-center justify-between gap-x-4 lg:flex">
           <Button>Book Now</Button>
           <div
@@ -111,6 +105,16 @@ export default function Navbar() {
             )}
           </div>
         </div>
+
+        <div
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className={clsx(
+            "flex rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200 lg:hidden",
+            isMenuOpen && "bg-neutral-200",
+          )}
+        >
+          <Menu color="#1c1b18" size={24} />
+        </div>
       </div>
       {isMenuOpen && (
         <div
@@ -135,7 +139,7 @@ export default function Navbar() {
 
           <Button variant="secondary">Book Now</Button>
           <div
-            ref={languageRef}
+            ref={mobileLanguageRef}
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
             className="relative flex flex-row items-center justify-between gap-x-1 rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200"
           >
@@ -147,7 +151,7 @@ export default function Navbar() {
             )}
 
             {isLanguageOpen && (
-              <div className="bg-background absolute top-12 right-0 z-50 flex w-max flex-col rounded-sm border border-neutral-200 shadow-lg">
+              <div className="bg-background absolute top-12 left-1/2 z-50 flex w-max -translate-x-1/2 flex-col rounded-sm border border-neutral-200 shadow-lg">
                 <div className="flex flex-row items-center gap-x-2 px-4 py-2 whitespace-nowrap transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200">
                   <img
                     src={IDFlag}
