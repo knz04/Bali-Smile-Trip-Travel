@@ -8,23 +8,38 @@ import clsx from "clsx";
 export default function Navbar() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const ref = useRef(null);
+  const languageRef = useRef<HTMLDivElement | null>(null);
+  const menuRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (ref.current && !ref.current.contains(event.target)) {
-        setIsLanguageOpen(false);
+      if (event.target instanceof Node) {
+        // Close language dropdown
+        if (
+          isLanguageOpen &&
+          languageRef.current &&
+          !languageRef.current.contains(event.target)
+        ) {
+          setIsLanguageOpen(false);
+        }
+
+        // Close mobile menu
+        if (
+          isMenuOpen &&
+          menuRef.current &&
+          !menuRef.current.contains(event.target)
+        ) {
+          setIsMenuOpen(false);
+        }
       }
     }
 
-    if (isLanguageOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isLanguageOpen]);
+  }, [isLanguageOpen, isMenuOpen]);
+
   return (
     <nav className="flex w-full flex-col items-center justify-center">
       <div className="flex w-full flex-row items-center justify-between gap-x-4 px-4 py-3 lg:w-[90%] lg:gap-x-0">
@@ -67,7 +82,7 @@ export default function Navbar() {
         <div className="hidden flex-row items-center justify-between gap-x-4 lg:flex">
           <Button>Book Now</Button>
           <div
-            ref={ref}
+            ref={languageRef}
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
             className="relative flex flex-row items-center justify-between gap-x-1 rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200"
           >
@@ -99,7 +114,7 @@ export default function Navbar() {
       </div>
       {isMenuOpen && (
         <div
-          ref={ref}
+          ref={menuRef}
           className="bg-yellow flex w-full flex-col items-center gap-y-2 px-4 py-2 lg:hidden"
         >
           <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
@@ -120,7 +135,7 @@ export default function Navbar() {
 
           <Button variant="secondary">Book Now</Button>
           <div
-            ref={ref}
+            ref={languageRef}
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
             className="relative flex flex-row items-center justify-between gap-x-1 rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200"
           >
