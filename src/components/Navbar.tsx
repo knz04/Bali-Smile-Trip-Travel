@@ -11,6 +11,7 @@ export default function Navbar() {
   const languageRef = useRef<HTMLDivElement | null>(null);
   const mobileLanguageRef = useRef<HTMLDivElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const menuButtonRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -28,7 +29,9 @@ export default function Navbar() {
         if (
           isMenuOpen &&
           menuRef.current &&
-          !menuRef.current.contains(event.target)
+          !menuRef.current.contains(event.target) &&
+          menuButtonRef.current &&
+          !menuButtonRef.current.contains(event.target)
         ) {
           setIsMenuOpen(false);
           setIsLanguageOpen(false);
@@ -107,6 +110,7 @@ export default function Navbar() {
         </div>
 
         <div
+          ref={menuButtonRef}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className={clsx(
             "flex rounded-sm p-2 transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200 lg:hidden",
