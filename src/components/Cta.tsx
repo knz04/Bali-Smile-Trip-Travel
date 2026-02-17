@@ -10,8 +10,8 @@ export default function Cta() {
         className="absolute h-full w-full object-cover brightness-80"
       />
       <div className="relative flex w-full flex-col items-center justify-center gap-y-4 lg:w-[80%] lg:flex-row lg:justify-around lg:gap-0">
-        <div className="lg:items-left flex w-[90%] flex-col items-center gap-y-2 lg:w-[50%]">
-          <p className="text-background text-4xl">
+        <div className="flex w-[90%] flex-col items-center gap-y-2 lg:w-[50%] lg:items-start">
+          <p className="text-background text-center text-4xl lg:text-left">
             Let Us Be Your Local Friend in Bali
           </p>
           <p className="text-background w-full text-center text-lg font-light lg:w-[60%] lg:text-left">
