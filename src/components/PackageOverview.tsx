@@ -7,7 +7,7 @@ import Button from "./Button";
 
 export default function PackageOverview() {
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 lg:h-[120vh]">
+    <div className="flex h-fit flex-col items-center justify-center gap-y-12 lg:h-[100vh]">
       <div className="flex flex-col items-center justify-center">
         <p className="text-4xl">Our Packages</p>
         <p className="font-light">
