@@ -1,11 +1,13 @@
 interface ButtonProps {
   variant?: "primary" | "secondary";
   children?: React.ReactNode;
+  className?: string;
 }
 
 export default function Button({
   variant = "primary",
   children = "Book Now",
+  className,
 }: ButtonProps) {
   return (
     <div
@@ -13,7 +15,7 @@ export default function Button({
         variant === "primary"
           ? "bg-yellow hover:border-yellow hover:bg-background border-transparent"
           : "border-yellow hover:bg-yellow bg-background"
-      }`}
+      } ${className || ""}`}
     >
       <span className="text-primary text-center font-normal">{children}</span>
     </div>
