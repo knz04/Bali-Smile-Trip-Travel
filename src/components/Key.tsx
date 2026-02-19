@@ -11,22 +11,34 @@ const lines = [
   "More Than a Tour — We Truly Care",
 ];
 
-// Arc: offsets curve outward in the middle
 const arcOffsets = [0, 10, 16, 20, 20, 16, 10, 0];
 
 export default function Key() {
   return (
     <div
-      className="relative h-screen bg-cover bg-bottom"
+      className="relative bg-cover bg-bottom sm:h-[60vh] lg:h-screen"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="from-background absolute inset-0 bg-linear-to-r from-50%" />
+
+      {/* Logo */}
       <img
         src="/logo-no-text.png"
         alt="Logo"
-        className="absolute top-1/2 left-0 h-[80%] translate-x-1/10 -translate-y-1/2"
+        className="absolute top-8 left-1/2 h-[30%] -translate-x-1/2 lg:top-1/2 lg:left-0 lg:h-[80%] lg:translate-x-1/10 lg:-translate-y-1/2"
       />
-      <div className="absolute inset-y-0 right-0 w-1/2 translate-y-30">
+
+      {/* SM: stacked list below logo */}
+      <div className="absolute top-[38%] right-0 left-0 flex flex-col items-center gap-y-2 px-4 lg:hidden">
+        {lines.map((line, i) => (
+          <p key={i} className="text-primary text-center sm:text-2xl">
+            {line}
+          </p>
+        ))}
+      </div>
+
+      {/* LG: arc layout */}
+      <div className="absolute inset-y-0 right-0 hidden w-1/2 lg:block">
         {lines.map((line, i) => (
           <p
             key={i}
