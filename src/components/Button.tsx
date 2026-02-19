@@ -17,7 +17,9 @@ export default function Button({
           : "border-yellow hover:bg-yellow bg-background"
       } ${className || ""}`}
     >
-      <span className="text-primary text-center font-normal">{children}</span>
+      <span className="text-primary text-center font-normal sm:text-sm md:text-base">
+        {children}
+      </span>
     </div>
   );
 }

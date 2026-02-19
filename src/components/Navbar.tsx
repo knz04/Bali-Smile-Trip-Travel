@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex w-full flex-col items-center justify-center">
-      <div className="flex w-full flex-row items-center justify-around gap-x-4 px-4 py-3 lg:w-[80%] lg:gap-x-0">
+      <div className="flex w-full flex-row items-center justify-around gap-x-4 py-3 lg:w-[80%] lg:gap-x-0">
         {/*Logo*/}
         <div className="flex flex-row items-center justify-between gap-x-2 hover:cursor-pointer">
           <img
@@ -55,7 +55,9 @@ export default function Navbar() {
             alt="Logo"
             className="h-12 w-auto lg:h-20"
           />
-          <p className="font-medium uppercase">Bali Smile Trip & Travel</p>
+          <p className="font-medium uppercase sm:text-sm md:text-base">
+            Bali Smile Trip & Travel
+          </p>
         </div>
         {/*Nav*/}
         <div className="hidden flex-row items-center justify-between gap-x-8 lg:flex">
@@ -125,19 +127,19 @@ export default function Navbar() {
           ref={menuRef}
           className="bg-yellow flex w-full flex-col items-center gap-y-2 px-4 py-2 lg:hidden"
         >
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             Home
           </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             About
           </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             Gallery
           </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             Packages
           </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             Contact
           </p>
 
@@ -162,11 +164,11 @@ export default function Navbar() {
                     alt="Bahasa Indonesia"
                     className="h-6 w-auto"
                   />
-                  <p className="font-light">Bahasa Indonesia</p>
+                  <p className="font-light sm:text-sm">Bahasa Indonesia</p>
                 </div>
                 <div className="flex flex-row items-center gap-x-2 px-4 py-2 whitespace-nowrap transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200">
                   <img src={USFlag} alt="English (US)" className="h-6 w-auto" />
-                  <p className="font-light">English (US)</p>
+                  <p className="font-light sm:text-sm">English (US)</p>
                 </div>
               </div>
             )}
