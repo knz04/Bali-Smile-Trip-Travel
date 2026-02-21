@@ -12,12 +12,12 @@ export default function Footer() {
               alt="Logo"
               className="h-12 w-auto lg:h-20"
             />
-            <p className="text-background font-medium uppercase">
+            <p className="text-background font-medium uppercase sm:text-sm md:text-base">
               Bali Smile Trip & Travel
             </p>
           </div>
           <div className="flex flex-col gap-y-1">
-            <p className="text-background font-light">
+            <p className="text-background font-light sm:text-sm lg:text-base">
               Jl. Chandra Ayu Gg. Sandat Blk. 1 No.12 1 B, Batubulan, Kec.
               Sukawati, Kabupaten Gianyar, Bali 80582
             </p>
@@ -27,7 +27,7 @@ export default function Footer() {
               <MapPin size={24} color="background" />
             </div>
           </div>
-          <p className="text-background font-light">
+          <p className="text-background font-light sm:text-sm lg:text-base">
             Copyright &copy; 2026 Bali Smile Trip & Travel
           </p>
         </div>
