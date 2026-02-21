@@ -3,7 +3,7 @@ import ctaImage from "../assets/cta.webp";
 
 export default function Cta() {
   return (
-    <div className="relative flex items-center justify-center sm:h-fit sm:py-12 xl:h-[24vh]">
+    <div className="relative flex items-center justify-center sm:h-fit sm:py-12 2xl:h-[24vh]">
       <img
         src={ctaImage}
         alt="CTA Image"
@@ -14,7 +14,7 @@ export default function Cta() {
           <p className="text-background text-center sm:text-3xl lg:text-left xl:text-4xl">
             Let Us Be Your Local Friend in Bali
           </p>
-          <p className="text-background w-full text-center font-light sm:text-base lg:text-left xl:w-[60%] xl:text-lg">
+          <p className="text-background w-full text-center font-light sm:text-base lg:text-left 2xl:w-[60%] 2xl:text-lg">
             Whether you seek romance, family bonding, luxury comfort, or
             adventurous exploration, Bali Smile Trip & Travel is here to create
             a journey you’ll remember forever.
