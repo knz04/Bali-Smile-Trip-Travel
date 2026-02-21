@@ -29,19 +29,16 @@ export default function PackageOverview() {
         {packages.map(({ src, alt }) => (
           <div
             key={alt}
-            className="group relative flex h-48 w-full flex-col items-center justify-center gap-y-2"
+            className="relative flex h-48 w-full cursor-pointer flex-col items-center justify-center"
           >
             <img
               src={src}
               alt={alt}
-              className="absolute h-full w-full object-cover brightness-80"
+              className="absolute h-full w-full object-cover brightness-75"
             />
-            <p className="text-background relative z-10 translate-y-4 text-center text-xl font-semibold transition-transform duration-300 group-hover:-translate-y-2">
+            <p className="text-background relative z-10 text-center text-xl font-semibold">
               {alt}
             </p>
-            <Button className="relative z-10 translate-y-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-              View Details
-            </Button>
           </div>
         ))}
       </div>
