@@ -15,9 +15,9 @@ export default function PackageOverview() {
   ];
 
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 sm:h-[120vh] lg:h-screen">
+    <div className="flex h-fit flex-col items-center justify-center gap-y-12 sm:h-[120vh] xl:h-screen">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-3xl lg:text-4xl">Our Packages</p>
+        <p className="text-3xl xl:text-4xl">Our Packages</p>
         <p className="text-center text-sm font-light lg:text-base">
           Choose your perfect Bali adventure. Every package includes a private
           driver and personalized service.
@@ -51,7 +51,7 @@ export default function PackageOverview() {
             alt="Ubud Essential Tour"
             className="absolute h-full w-full object-cover brightness-80"
           />
-          <p className="text-background relative z-10 translate-y-4 font-semibold transition-transform duration-300 group-hover:-translate-y-2 lg:text-start lg:text-4xl">
+          <p className="text-background relative z-10 translate-y-4 font-semibold transition-transform duration-300 group-hover:-translate-y-2 lg:text-start lg:text-3xl xl:text-4xl">
             Ubud Essential Tour
           </p>
           <Button className="relative z-10 translate-y-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
@@ -74,7 +74,7 @@ export default function PackageOverview() {
                 alt={alt}
                 className="absolute h-full w-full object-cover brightness-80"
               />
-              <p className="text-background relative z-10 translate-y-4 font-semibold transition-transform duration-300 group-hover:-translate-y-2 lg:text-start lg:text-4xl">
+              <p className="text-background relative z-10 translate-y-4 font-semibold transition-transform duration-300 group-hover:-translate-y-2 lg:text-start lg:text-3xl xl:text-4xl">
                 {alt}
               </p>
               <Button className="relative z-10 translate-y-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
