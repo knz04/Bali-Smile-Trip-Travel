@@ -33,19 +33,19 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <p className="text-background font-light hover:cursor-pointer hover:underline">
+          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
             Home
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline">
+          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
             About
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline">
+          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
             Packages
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline">
+          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
             Gallery
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline">
+          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
             Contact
           </p>
         </div>
