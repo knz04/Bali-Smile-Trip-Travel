@@ -29,16 +29,16 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 py-2 lg:h-[60vh] lg:py-0">
+    <div className="flex flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:h-[60vh] lg:py-0">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-4xl">What Our Guests Say</p>
-        <p className="font-light">
+        <p className="sm:text-3xl lg:text-4xl">What Our Guests Say</p>
+        <p className="font-light sm:text-sm lg:text-base">
           Our guests come from around the world, and many return or recommend
           us.
         </p>
       </div>
       <div>
-        <div className="flex flex-row justify-center gap-8">
+        <div className="flex justify-center gap-8 sm:flex-col lg:flex-row">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}
@@ -50,9 +50,13 @@ export default function Testimonials() {
                 className="border-yellow absolute -top-12 left-1/2 z-10 h-24 w-24 -translate-x-1/2 rounded-full border-2 object-cover"
               />
               <div className="border-yellow relative flex w-fit flex-col items-center justify-center rounded-sm border px-8 pt-14 pb-8">
-                <p className="max-w-96 text-center">{testimonial.review}</p>
+                <p className="max-w-96 text-center font-light sm:text-sm lg:text-base">
+                  {testimonial.review}
+                </p>
                 <div className="mt-2 flex flex-col items-center justify-center">
-                  <p>{testimonial.name}</p>
+                  <p className="font-light sm:text-sm lg:text-base">
+                    {testimonial.name}
+                  </p>
                   <div className="flex flex-row">
                     {Array.from({ length: testimonial.rating }).map((_, i) => (
                       <Star key={i} color="yellow" fill="#ffd21e" />
