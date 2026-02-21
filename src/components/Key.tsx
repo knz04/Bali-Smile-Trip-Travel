@@ -25,7 +25,7 @@ export default function Key() {
       <img
         src="/logo-no-text.png"
         alt="Logo"
-        className="absolute top-8 left-1/2 h-[30%] -translate-x-1/2 lg:top-1/2 lg:left-0 lg:h-[80%] lg:translate-x-1/10 lg:-translate-y-1/2"
+        className="xl:[80%] absolute top-8 left-1/2 h-[30%] -translate-x-1/2 lg:top-1/2 lg:left-0 lg:h-[75%] lg:translate-x-1/10 lg:-translate-y-3/5 xl:-translate-y-1/2"
       />
 
       {/* SM: stacked list below logo */}
@@ -42,7 +42,7 @@ export default function Key() {
         {lines.map((line, i) => (
           <p
             key={i}
-            className="text-primary absolute text-4xl"
+            className="text-primary absolute lg:text-xl xl:text-4xl"
             style={{
               top: `${10 + i * 9}%`,
               left: `${arcOffsets[i]}%`,
