@@ -10,16 +10,16 @@ export default function Hero() {
         className="absolute h-full w-full object-cover brightness-80"
       />
       <div className="relative flex h-full flex-col items-center justify-center gap-y-2">
-        <p className="text-background text-center font-semibold sm:text-5xl lg:text-6xl">
+        <p className="text-background text-center font-semibold sm:text-5xl xl:text-6xl">
           Private Bali Tours & Certified Drivers.
         </p>
-        <p className="text-background text-center text-6xl font-semibold sm:text-5xl">
+        <p className="text-background text-center font-semibold sm:text-5xl xl:text-6xl">
           Explore Bali with Comfort.
         </p>
-        <p className="text-background text-center text-4xl font-normal sm:text-3xl">
+        <p className="text-background text-center font-normal sm:text-3xl xl:text-4xl">
           Exploring Destinations, Creating Memories.
         </p>
-        <p className="text-background text-center text-base font-light sm:text-sm">
+        <p className="text-background text-center font-light sm:text-sm lg:text-base">
           Your trusted Bali tour and transport provider, where every journey is
           crafted with heart, passion, and true Balinese hospitality.
         </p>
