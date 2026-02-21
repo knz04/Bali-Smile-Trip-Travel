@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex w-full flex-col items-center justify-center">
-      <div className="flex w-full flex-row items-center justify-around gap-x-4 py-3 lg:w-[80%] lg:gap-x-0">
+      <div className="flex w-full flex-row items-center justify-around gap-x-4 py-3 lg:gap-x-0">
         {/*Logo*/}
         <div className="flex flex-row items-center justify-between gap-x-2 hover:cursor-pointer">
           <img
