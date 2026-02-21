@@ -3,7 +3,7 @@ import welcome from "../assets/welcome.webp";
 
 export default function Welcome() {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-y-8 py-2 sm:h-[60vh] lg:h-screen lg:flex-row lg:gap-x-8 2xl:h-[50vh]">
+    <div className="flex w-full flex-col items-center justify-center gap-y-8 py-2 sm:h-[60vh] lg:h-screen lg:flex-row lg:gap-x-8 2xl:h-[80vh]">
       <div className="flex">
         <img src={welcome} alt="Welcome" className="w-full sm:h-64 lg:h-96" />
       </div>
