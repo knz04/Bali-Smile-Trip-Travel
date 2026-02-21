@@ -3,7 +3,7 @@ import whatsapp from "../assets/whatsapp.png";
 
 export default function Footer() {
   return (
-    <div className="bg-primary flex h-fit w-full items-center justify-center py-12 xl:h-[24vh]">
+    <div className="bg-primary flex h-fit w-full items-center justify-center py-12 2xl:h-[24vh]">
       <div className="items-left flex w-[90%] flex-col gap-y-6 lg:flex-row lg:items-center lg:justify-around lg:gap-0">
         <div className="flex flex-col gap-y-6">
           <div className="flex w-fit flex-row items-center justify-between gap-x-2 hover:cursor-pointer">
