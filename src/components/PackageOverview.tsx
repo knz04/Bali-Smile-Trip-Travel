@@ -15,7 +15,7 @@ export default function PackageOverview() {
   ];
 
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 sm:h-[120vh] xl:h-screen">
+    <div className="flex h-fit flex-col items-center justify-center gap-y-12 sm:h-[120vh] 2xl:h-screen">
       <div className="flex flex-col items-center justify-center">
         <p className="text-3xl xl:text-4xl">Our Packages</p>
         <p className="text-center text-sm font-light lg:text-base">
