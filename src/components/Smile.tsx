@@ -33,7 +33,7 @@ const SmileStandard = [
 
 export default function Smile() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-y-12 xl:h-[50vh]">
+    <div className="flex h-screen flex-col items-center justify-center gap-y-12 2xl:h-[50vh]">
       <div className="flex flex-col items-center justify-center">
         <p className="sm:text-3xl xl:text-4xl">The SMILE Journey Standard</p>
         <p className="font-light sm:text-sm lg:text-base">
@@ -41,11 +41,11 @@ export default function Smile() {
           standard.
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center gap-y-4 lg:flex-row lg:gap-x-2 xl:gap-x-6">
+      <div className="flex flex-col items-center justify-center gap-y-4 lg:flex-row lg:gap-x-2 2xl:gap-x-6">
         {SmileStandard.map((item) => (
           <div
             key={item.title}
-            className="bg-yellow flex w-full flex-col items-center justify-center gap-y-4 rounded-xs px-2 sm:h-[16vh] lg:h-[60vh] xl:h-[40vh]"
+            className="bg-yellow flex w-full flex-col items-center justify-center gap-y-4 rounded-xs px-2 sm:h-[16vh] lg:h-[60vh] 2xl:h-[40vh]"
           >
             <item.icon className="stroke-1 sm:size-12 lg:size-16 xl:size-24" />
             <p className="text-center sm:text-2xl xl:text-3xl">{item.title}</p>
