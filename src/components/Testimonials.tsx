@@ -29,9 +29,9 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="flex flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:h-[60vh] lg:py-0">
+    <div className="flex flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:py-0 xl:h-[60vh]">
       <div className="flex flex-col items-center justify-center">
-        <p className="sm:text-3xl lg:text-4xl">What Our Guests Say</p>
+        <p className="sm:text-3xl xl:text-4xl">What Our Guests Say</p>
         <p className="font-light sm:text-sm lg:text-base">
           Our guests come from around the world, and many return or recommend
           us.
