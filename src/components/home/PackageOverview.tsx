@@ -3,7 +3,7 @@ import northBali from "../assets/unsplash/north-bali.webp";
 import eastBali from "../assets/unsplash/east-bali.webp";
 import southBali from "../assets/unsplash/south-bali.webp";
 import andMore from "../assets/unsplash/and-more.webp";
-import Button from "./Button";
+import Button from "../Button";
 
 export default function PackageOverview() {
   const packages = [

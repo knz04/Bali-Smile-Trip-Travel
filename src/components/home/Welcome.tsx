@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Button";
 import welcome from "../assets/welcome.webp";
 
 export default function Welcome() {

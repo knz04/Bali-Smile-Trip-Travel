@@ -1,5 +1,5 @@
 import heroImage from "../assets/hero-home.webp";
-import Button from "./Button";
+import Button from "../Button";
 
 export default function Hero() {
   return (

@@ -1,10 +1,10 @@
 import Cta from "../components/Cta";
-import Hero from "../components/Hero";
-import Key from "../components/Key";
-import PackageOverview from "../components/PackageOverview";
-import Smile from "../components/Smile";
-import Testimonials from "../components/Testimonials";
-import Welcome from "../components/Welcome";
+import Hero from "../components/home/Hero";
+import Key from "../components/home/Key";
+import PackageOverview from "../components/home/PackageOverview";
+import Smile from "../components/home/Smile";
+import Testimonials from "../components/home/Testimonials";
+import Welcome from "../components/home/Welcome";
 
 export default function Home() {
   return (
