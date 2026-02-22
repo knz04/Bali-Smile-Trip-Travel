@@ -1,5 +1,5 @@
 import Button from "../Button";
-import welcome from "../assets/welcome.webp";
+import welcome from "../../assets/welcome.webp";
 
 export default function Welcome() {
   return (

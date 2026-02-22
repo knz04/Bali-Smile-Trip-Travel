@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero-home.webp";
+import heroImage from "../../assets/hero-home.webp";
 import Button from "../Button";
 
 export default function Hero() {

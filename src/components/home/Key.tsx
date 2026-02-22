@@ -1,4 +1,4 @@
-import bg from "../assets/hero-home.webp";
+import bg from "../../assets/hero-home.webp";
 
 const lines = [
   "Local Experts, Authentic Bali Experiences",

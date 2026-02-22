@@ -1,7 +1,7 @@
 import { Star } from "lucide-react";
-import elliottl from "../assets/testimonials/elliottl.webp";
-import frankc from "../assets/testimonials/frankc.webp";
-import wendyy from "../assets/testimonials/wendyy.webp";
+import elliottl from "../../assets/testimonials/elliottl.webp";
+import frankc from "../../assets/testimonials/frankc.webp";
+import wendyy from "../../assets/testimonials/wendyy.webp";
 
 const testimonials = [
   {
