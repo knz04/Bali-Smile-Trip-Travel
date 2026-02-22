@@ -4,6 +4,7 @@ import IDFlag from "../assets/id.png";
 import { ChevronDown, ChevronUp, Menu } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
+import { Link } from "react-router";
 
 export default function Navbar() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
@@ -55,31 +56,48 @@ export default function Navbar() {
             alt="Logo"
             className="h-12 w-auto lg:h-20"
           />
-          <p className="font-medium uppercase sm:text-sm md:text-base">
+          <Link
+            to="/"
+            className="font-medium uppercase sm:text-sm md:text-base"
+          >
             Bali Smile Trip & Travel
-          </p>
+          </Link>
         </div>
         {/*Nav*/}
         <div className="hidden flex-row items-center justify-between gap-x-8 lg:flex">
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <Link
+            to="/"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             Home
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          </Link>
+          <Link
+            to="/about"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             About
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          </Link>
+          <Link
+            to="/gallery"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             Gallery
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          </Link>
+          <Link
+            to="/packages"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             Packages
-          </p>
+          </Link>
           <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
             Contact
           </p>
         </div>
         {/*Book now and language*/}
         <div className="hidden flex-row items-center justify-between gap-x-4 lg:flex">
-          <Button>Book Now</Button>
+          <Link to="/book">
+            <Button>Book Now</Button>
+          </Link>
           <div
             ref={languageRef}
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
@@ -127,23 +145,38 @@ export default function Navbar() {
           ref={menuRef}
           className="bg-yellow flex w-full flex-col items-center gap-y-2 px-4 py-2 lg:hidden"
         >
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
+          <Link
+            to="/"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+          >
             Home
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
+          </Link>
+          <Link
+            to="/about"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+          >
             About
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
+          </Link>
+          <Link
+            to="/gallery"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+          >
             Gallery
-          </p>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
+          </Link>
+          <Link
+            to="/packages"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+          >
             Packages
-          </p>
+          </Link>
           <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
             Contact
           </p>
 
-          <Button variant="secondary">Book Now</Button>
+          <Link to="/book">
+            {" "}
+            <Button variant="secondary">Book Now</Button>
+          </Link>
           <div
             ref={mobileLanguageRef}
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}

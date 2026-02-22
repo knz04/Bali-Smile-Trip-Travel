@@ -1,25 +1,17 @@
+import { Routes } from "react-router";
 import "./App.css";
-import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Key from "./components/Key";
 import Navbar from "./components/Navbar";
-import PackageOverview from "./components/PackageOverview";
-import Smile from "./components/Smile";
-import Testimonials from "./components/Testimonials";
-import Welcome from "./components/Welcome";
+import { Route } from "react-router";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Welcome />
-      <Smile />
-      <Key />
-      <PackageOverview />
-      <Testimonials />
-      <Cta />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
     </>
   );
