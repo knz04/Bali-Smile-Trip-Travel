@@ -33,7 +33,7 @@ const SmileStandard = [
 
 export default function Smile() {
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 pb-12 sm:pb-0 2xl:h-[70vh]">
+    <div className="flex h-fit flex-col items-center justify-center gap-y-12 pb-12 lg:pb-0 2xl:h-[70vh]">
       <div className="flex flex-col items-center justify-center">
         <p className="text-start text-2xl sm:text-center sm:text-3xl xl:text-4xl">
           The SMILE Journey Standard
