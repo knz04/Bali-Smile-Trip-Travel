@@ -147,29 +147,29 @@ export default function Navbar() {
         >
           <Link
             to="/"
-            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             About
           </Link>
           <Link
             to="/gallery"
-            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             Gallery
           </Link>
           <Link
             to="/packages"
-            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm"
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             Packages
           </Link>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline sm:text-sm">
+          <p className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
             Contact
           </p>
 
@@ -197,11 +197,11 @@ export default function Navbar() {
                     alt="Bahasa Indonesia"
                     className="h-6 w-auto"
                   />
-                  <p className="font-light sm:text-sm">Bahasa Indonesia</p>
+                  <p className="text-sm font-light">Bahasa Indonesia</p>
                 </div>
                 <div className="flex flex-row items-center gap-x-2 px-4 py-2 whitespace-nowrap transition duration-300 ease-in-out hover:cursor-pointer hover:bg-neutral-200">
                   <img src={USFlag} alt="English (US)" className="h-6 w-auto" />
-                  <p className="font-light sm:text-sm">English (US)</p>
+                  <p className="text-sm font-light">English (US)</p>
                 </div>
               </div>
             )}

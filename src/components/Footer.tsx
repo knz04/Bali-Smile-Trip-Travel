@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-col gap-y-1">
-            <p className="text-background font-light sm:text-sm lg:text-base">
+            <p className="text-background text-sm font-light lg:text-base">
               Jl. Chandra Ayu Gg. Sandat Blk. 1 No.12 1 B, Batubulan, Kec.
               Sukawati, Kabupaten Gianyar, Bali 80582
             </p>
@@ -27,25 +27,25 @@ export default function Footer() {
               <MapPin size={24} color="background" />
             </div>
           </div>
-          <p className="text-background font-light sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light lg:text-base">
             Copyright &copy; 2026 Bali Smile Trip & Travel
           </p>
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base">
             Home
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base">
             About
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base">
             Packages
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base">
             Gallery
           </p>
-          <p className="text-background font-light hover:cursor-pointer hover:underline sm:text-sm lg:text-base">
+          <p className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base">
             Contact
           </p>
         </div>

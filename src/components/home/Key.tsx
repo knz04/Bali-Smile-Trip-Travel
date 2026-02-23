@@ -16,7 +16,7 @@ const arcOffsets = [0, 10, 16, 20, 20, 16, 10, 0];
 export default function Key() {
   return (
     <div
-      className="relative bg-cover bg-bottom sm:h-[60vh] lg:h-screen"
+      className="relative h-[80vh] bg-cover bg-bottom sm:h-[60vh] lg:h-screen"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="from-background absolute inset-0 bg-linear-to-r from-50%" />

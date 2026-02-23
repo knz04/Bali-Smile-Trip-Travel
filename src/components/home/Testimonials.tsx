@@ -29,16 +29,16 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="flex flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:py-0 2xl:h-[60vh]">
+    <div className="flex h-[150vh] flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:py-0 2xl:h-[60vh]">
       <div className="flex flex-col items-center justify-center">
-        <p className="sm:text-3xl xl:text-4xl">What Our Guests Say</p>
-        <p className="font-light sm:text-sm lg:text-base">
+        <p className="text-2xl sm:text-3xl xl:text-4xl">What Our Guests Say</p>
+        <p className="w-[90%] text-center text-sm font-light sm:w-full lg:text-base">
           Our guests come from around the world, and many return or recommend
           us.
         </p>
       </div>
       <div>
-        <div className="flex justify-center gap-8 sm:flex-col lg:flex-row">
+        <div className="flex flex-col justify-center gap-8 lg:flex-row">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}

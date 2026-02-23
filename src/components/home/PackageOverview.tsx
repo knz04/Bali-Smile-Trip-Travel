@@ -15,10 +15,10 @@ export default function PackageOverview() {
   ];
 
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-y-12 sm:h-[120vh]">
+    <div className="flex h-[150vh] flex-col items-center justify-center gap-y-12 sm:h-[120vh]">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-3xl xl:text-4xl">Our Packages</p>
-        <p className="text-center text-sm font-light lg:text-base">
+        <p className="text-2xl sm:text-3xl xl:text-4xl">Our Packages</p>
+        <p className="w-[90%] text-center text-sm font-light sm:w-full lg:text-base">
           Choose your perfect Bali adventure. Every package includes a private
           driver and personalized service.
         </p>
