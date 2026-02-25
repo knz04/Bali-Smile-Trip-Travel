@@ -30,15 +30,15 @@ export default function About() {
         subheading="Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality."
       />
 
-      <div className="flex flex-col justify-around p-12 lg:flex-row">
+      <div className="flex flex-col justify-around p-8 md:p-12 lg:flex-row">
         {/* Founder image mobile */}
         <div className="flex flex-col items-center gap-y-2 pb-6 lg:hidden">
-          <img src={dewa} className="w-fit md:h-60 lg:h-80" />
+          <img src={dewa} className="w-fit sm:h-48 md:h-60 lg:h-80" />
           <div className="flex flex-col">
-            <p className="text-primary text-center font-normal lg:text-base">
+            <p className="text-primary text-center text-sm font-normal lg:text-base">
               Dewa Wahya
             </p>
-            <p className="text-primary text-center font-light lg:text-base">
+            <p className="text-primary text-center text-sm font-light lg:text-base">
               Founder & Local Travel Expert
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function About() {
         <div className="flex flex-col gap-y-8 lg:w-2/3">
           {/* Meet our founder*/}
           <div className="flex flex-col">
-            <p className="text-primary pb-6 md:text-3xl xl:text-4xl">
+            <p className="text-primary pb-6 text-3xl xl:text-4xl">
               Meet Our Founder
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
@@ -132,17 +132,17 @@ export default function About() {
 
           {/* Why choose us*/}
           <div>
-            <p className="text-primary pb-6 font-normal md:text-3xl xl:text-4xl">
+            <p className="text-primary pb-6 text-3xl font-normal xl:text-4xl">
               Here is why Bali Smile Trip & Travel is the perfect choice for
               you:
             </p>
             <div className="flex flex-col gap-y-6">
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     1
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Local Experts, Authentic Bali Experiences
                   </p>
                 </div>
@@ -155,10 +155,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     2
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Creating Memories, Not Just Photos
                   </p>
                 </div>
@@ -170,10 +170,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     3
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Tailor-Made Journeys for Every Traveler
                   </p>
                 </div>
@@ -201,10 +201,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     4
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Exploring Destinations, Creating Memories
                   </p>
                 </div>
@@ -230,10 +230,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     5
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Comfortable & Premium Vehicles
                   </p>
                 </div>
@@ -257,10 +257,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     6
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Professional, Certified & Caring Guides
                   </p>
                 </div>
@@ -272,10 +272,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     7
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     Honest Pricing with No Hidden Costs
                   </p>
                 </div>
@@ -297,10 +297,10 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
                     8
                   </p>
-                  <p className="md:text-2xl lg:text-3xl">
+                  <p className="text-2xl lg:text-3xl">
                     More Than a Tour — We Truly Cares
                   </p>
                 </div>
@@ -344,11 +344,11 @@ export default function About() {
       </div>
 
       {/* Stats */}
-      <div className="flex w-full flex-row items-center justify-around gap-x-2 px-12 pb-12">
+      <div className="flex w-full flex-col items-center justify-around gap-2 px-8 pb-12 md:flex-row md:px-12">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="bg-yellow flex h-36 w-54 flex-col items-center justify-center gap-y-2 rounded-xs xl:h-42 xl:w-70"
+            className="bg-yellow flex h-36 w-full flex-col items-center justify-center gap-y-2 rounded-xs md:w-54 xl:h-42 xl:w-70"
           >
             <p className="text-primary text-center font-semibold md:text-2xl lg:text-3xl xl:text-4xl">
               {stat.amount}
