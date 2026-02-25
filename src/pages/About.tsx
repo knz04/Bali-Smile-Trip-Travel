@@ -139,7 +139,7 @@ export default function About() {
             <div className="flex flex-col gap-y-6">
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     1
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -155,7 +155,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     2
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -170,7 +170,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     3
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -201,7 +201,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     4
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -230,7 +230,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     5
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -257,7 +257,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     6
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -272,7 +272,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     7
                   </p>
                   <p className="text-2xl lg:text-3xl">
@@ -297,7 +297,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full text-2xl lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     8
                   </p>
                   <p className="text-2xl lg:text-3xl">
