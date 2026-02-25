@@ -17,7 +17,9 @@ export default function SectionHeader({
         className="absolute h-full w-full object-cover brightness-50"
       />
       <div className="relative flex h-full flex-col items-center justify-center gap-y-2">
-        <p className="text-background text-center md:text-3xl">{heading}</p>
+        <p className="text-background text-center md:text-3xl xl:text-4xl">
+          {heading}
+        </p>
         <p className="text-background w-[80%] text-center text-sm font-light lg:w-[50%] lg:text-base">
           {subheading}
         </p>

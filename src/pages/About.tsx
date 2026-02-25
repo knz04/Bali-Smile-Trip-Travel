@@ -48,7 +48,9 @@ export default function About() {
         <div className="flex flex-col gap-y-8 lg:w-2/3">
           {/* Meet our founder*/}
           <div className="flex flex-col">
-            <p className="text-primary pb-6 md:text-3xl">Meet Our Founder</p>
+            <p className="text-primary pb-6 md:text-3xl xl:text-4xl">
+              Meet Our Founder
+            </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
               Dewa Wahya is the founder of Bali Smile Trip & Travel, a trusted
               Bali tour and travel service specializing in private Bali tours,
@@ -130,14 +132,14 @@ export default function About() {
 
           {/* Why choose us*/}
           <div>
-            <p className="text-primary pb-6 font-normal md:text-3xl">
+            <p className="text-primary pb-6 font-normal md:text-3xl xl:text-4xl">
               Here is why Bali Smile Trip & Travel is the perfect choice for
               you:
             </p>
             <div className="flex flex-col gap-y-6">
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     1
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -153,7 +155,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     2
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -168,7 +170,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     3
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -199,7 +201,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     4
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -228,7 +230,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     5
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -255,7 +257,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     6
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -270,7 +272,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     7
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -295,7 +297,7 @@ export default function About() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
-                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full lg:text-3xl">
+                  <p className="text-yellow bg-primary flex h-12 w-12 items-center justify-center rounded-full md:text-2xl lg:text-3xl">
                     8
                   </p>
                   <p className="md:text-2xl lg:text-3xl">
@@ -346,9 +348,9 @@ export default function About() {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="bg-yellow flex h-36 w-54 flex-col items-center justify-center gap-y-2 rounded-xs"
+            className="bg-yellow flex h-36 w-54 flex-col items-center justify-center gap-y-2 rounded-xs xl:h-42 xl:w-70"
           >
-            <p className="text-primary text-center font-semibold md:text-2xl lg:text-3xl">
+            <p className="text-primary text-center font-semibold md:text-2xl lg:text-3xl xl:text-4xl">
               {stat.amount}
             </p>
             <p className="text-primary text-center text-sm font-light lg:text-base">
