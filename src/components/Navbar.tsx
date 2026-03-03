@@ -78,16 +78,16 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            to="/gallery"
-            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
-          >
-            Gallery
-          </Link>
-          <Link
             to="/packages"
             className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             Packages
+          </Link>
+          <Link
+            to="/gallery"
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
+            Gallery
           </Link>
           <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
             Contact
@@ -158,16 +158,16 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            to="/gallery"
-            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
-          >
-            Gallery
-          </Link>
-          <Link
             to="/packages"
             className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
           >
             Packages
+          </Link>
+          <Link
+            to="/gallery"
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
+            Gallery
           </Link>
           <p className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
             Contact
