@@ -38,6 +38,7 @@ export default function Packages() {
         {packages.map((pack, index) => (
           <PackageCard
             key={index}
+            id={index}
             image={pack.image}
             title={pack.title}
             description={pack.description}

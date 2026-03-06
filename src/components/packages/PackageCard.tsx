@@ -1,12 +1,15 @@
+import { Link } from "react-router";
 import Button from "../Button";
 
 interface PackageCardProps {
+  id: number;
   image?: string;
   title: string;
   description: string;
 }
 
 export default function PackageCard({
+  id,
   image,
   title,
   description,
@@ -23,7 +26,9 @@ export default function PackageCard({
         <p className="line-clamp-3 text-sm font-light lg:text-base">
           {description}
         </p>
-        <Button>Learn More</Button>
+        <Link to={`/packages/${id}`}>
+          <Button>Learn More</Button>
+        </Link>
       </div>
     </div>
   );
