@@ -17,8 +17,17 @@ export default function PackageHero({
 }: PackageHeroProps) {
   return (
     <div className="flex h-full w-full flex-col gap-y-8 lg:h-[80vh] lg:flex-row">
+      {/* Mobile image */}
+      <div className="relative w-full overflow-hidden lg:hidden lg:w-1/2">
+        <img
+          src={image}
+          alt="Package image"
+          className="h-52 w-full object-cover brightness-80 lg:h-full"
+        />
+      </div>
+
       {/* Left column - Text */}
-      <div className="flex w-full flex-col items-start justify-center gap-y-2 px-8 lg:w-1/2 lg:px-16">
+      <div className="flex w-full flex-col items-start justify-center gap-y-2 px-8 pb-8 lg:w-1/2 lg:px-16 lg:pb-0">
         <div className="flex flex-row gap-x-1">
           <Link
             to="/packages"
@@ -49,7 +58,7 @@ export default function PackageHero({
       </div>
 
       {/* Right column - Image */}
-      <div className="relative w-full overflow-hidden lg:w-1/2">
+      <div className="hidden w-full overflow-hidden lg:relative lg:block lg:w-1/2">
         <img
           src={image}
           alt="Package image"
