@@ -20,6 +20,9 @@ import halfDayImage from "../assets/packages/half-day-ubud.webp";
 import shamanicHealingImage from "../assets/packages/shamanic-healing.webp";
 import holyWaterImage from "../assets/packages/holy-water.webp";
 import sacredPathImage from "../assets/packages/sacred-path.webp";
+import livinaX from "../assets/cars/livinax.webp";
+import reborn from "../assets/cars/reborn.webp";
+import hiace from "../assets/cars/hiace.webp";
 
 export const packages = [
   {
@@ -68,17 +71,20 @@ export const packages = [
         price: "IDR 975,000 / car",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,500,000 / car",
           description: "(More space & premium comfort)",
+          image: reborn,
         },
         {
           title: "Toyota Hiace – 12 Seater",
           price: "IDR 2,300,000 / car",
           description: "(Ideal for families & small groups)",
+          image: hiace,
         },
       ],
     },
@@ -154,15 +160,18 @@ export const packages = [
         price: "IDR 1,150,000 / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -226,15 +235,18 @@ export const packages = [
         price: "IDR 1,150,000 / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -300,15 +312,18 @@ export const packages = [
         price: "IDR 1,350,000 / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,500,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -372,15 +387,18 @@ export const packages = [
         price: "IDR 975,000 net / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,500,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -446,15 +464,18 @@ export const packages = [
         price: "IDR 975,000 / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,500,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -519,15 +540,18 @@ export const packages = [
         price: "IDR 1,350,000 / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -591,15 +615,18 @@ export const packages = [
         price: "IDR 1,350,000 net / car ",
         description:
           "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -740,15 +767,18 @@ export const packages = [
         price: "IDR 1,100,000 net / car ",
         description:
           "(Avanza / Xenia / Nissan Grand Livina – up to 7 passengers) ",
+        image: livinaX,
       },
       upgrade: [
         {
           title: "Innova Reborn",
           price: "IDR 1,650,000 / car ",
+          image: reborn,
         },
         {
           title: "Toyota Hiace (12 Seater)",
           price: "IDR 2,300,000 / car ",
+          image: hiace,
         },
       ],
     },
@@ -764,7 +794,7 @@ export const packages = [
     exclusions: ["Entrance fees ", "Meals & lunch ", "Personal expenses "],
   },
   {
-    image: customImage, // Replace with appropriate wine image reference
+    image: customImage,
     title: "Wine Yard Tour",
     subtitle: "Private Vineyard & Wine Experience in Bali",
     description:
