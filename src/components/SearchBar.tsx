@@ -1,12 +1,19 @@
 import { Search } from "lucide-react";
 
-export default function SearchBar() {
+interface SearchBarProps {
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
+
+export default function SearchBar({ value, onChange }: SearchBarProps) {
   return (
     <div>
       <div className="relative w-full">
         <input
           type="text"
           placeholder="Search"
+          value={value}
+          onChange={onChange}
           className="border-primary w-full rounded-sm border px-4 py-2 pr-8 text-sm font-light lg:text-base"
         />
         <Search
