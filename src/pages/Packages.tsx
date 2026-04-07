@@ -3,10 +3,12 @@ import SectionHeader from "../components/SectionHeader";
 import PackageCard from "../components/packages/PackageCard";
 import transportServiceImage from "../assets/packages/transport-service.png";
 import { packages } from "../data/packages";
+import PageTitle from "../components/PageTitle";
 
 export default function Packages() {
   return (
     <>
+      <PageTitle title="Packages" />
       <SectionHeader
         heading="Our Packages"
         subheading="Choose your perfect Bali adventure. Every package includes a private driver and personalized service."

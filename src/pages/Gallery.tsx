@@ -2,6 +2,7 @@ import { useState } from "react";
 import SearchBar from "../components/SearchBar";
 import SectionHeader from "../components/SectionHeader";
 import { tags, galleryItems } from "../data/gallery";
+import PageTitle from "../components/PageTitle";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -38,6 +39,7 @@ export default function Gallery() {
 
   return (
     <div>
+      <PageTitle title="Gallery" />
       <SectionHeader
         heading="Gallery"
         subheading="See the beauty, culture, and unforgettable moments our guests experience across Bali."
