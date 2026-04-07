@@ -1,7 +1,7 @@
 import Button from "./Button";
 import USFlag from "../assets/us.png";
 import IDFlag from "../assets/id.png";
-import { ChevronDown, ChevronUp, Menu } from "lucide-react";
+import { ChevronDown, ChevronUp, Menu, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
 import { Link } from "react-router";
@@ -9,6 +9,7 @@ import { Link } from "react-router";
 export default function Navbar() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const languageRef = useRef<HTMLDivElement | null>(null);
   const mobileLanguageRef = useRef<HTMLDivElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
@@ -89,7 +90,10 @@ export default function Navbar() {
           >
             Gallery
           </Link>
-          <p className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p
+            onClick={() => setIsContactOpen(true)}
+            className="font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             Contact
           </p>
         </div>
@@ -169,7 +173,13 @@ export default function Navbar() {
           >
             Gallery
           </Link>
-          <p className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline">
+          <p
+            onClick={() => {
+              setIsContactOpen(true);
+              setIsMenuOpen(false);
+            }}
+            className="text-sm font-light transition duration-300 ease-in-out hover:cursor-pointer hover:underline"
+          >
             Contact
           </p>
 
@@ -205,6 +215,44 @@ export default function Navbar() {
                 </div>
               </div>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* Contact Dialog */}
+      {isContactOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+          onClick={() => setIsContactOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-md overflow-hidden rounded-md bg-white p-6 shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setIsContactOpen(false)}
+              className="text-primary absolute top-3 right-3 rounded-full p-1 transition hover:cursor-pointer"
+            >
+              <X size={14} />
+            </button>
+
+            <h2 className="text-primary text-3xl xl:text-4xl">Contact Us</h2>
+            <p className="text-primary mt-1 text-sm font-light lg:text-base">
+              How would you like to contact us?
+            </p>
+
+            <div className="mt-6 flex w-full flex-col gap-3">
+              <Link to="https://wa.me/6281238906395" target="_blank">
+                <Button className="w-full text-center">
+                  Contact via WhatsApp (Fast response)
+                </Button>
+              </Link>
+              <Link to="mailto:balismiletrip2025@gmail.com" target="_blank">
+                <Button className="w-full text-center">
+                  Contact via Email
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       )}
