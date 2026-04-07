@@ -2,7 +2,7 @@ import SectionHeader from "../components/SectionHeader";
 import dewa from "../assets/dewa.webp";
 import { Link } from "react-router-dom";
 import Cta from "../components/Cta";
-import PageTitle from "../components/PageTitle";
+import usePageTitle from "../components/PageTitle";
 
 const stats = [
   {
@@ -24,9 +24,10 @@ const stats = [
 ];
 
 export default function About() {
+  usePageTitle("About");
+
   return (
     <div className="flex w-full flex-col">
-      <PageTitle title="About" />
       <SectionHeader
         heading="About Us"
         subheading="Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality."

@@ -8,11 +8,12 @@ import Itinerary from "../components/packages/detail/Itinerary";
 import Vehicle from "../components/packages/detail/Vehicle";
 import InclusionExclusion from "../components/packages/detail/InclusionExclusion";
 import Pricing from "../components/packages/detail/Pricing";
-import PageTitle from "../components/PageTitle";
+import usePageTitle from "../components/PageTitle";
 
 export default function PackageDetail() {
   const { id } = useParams();
   const pkg = id ? packages[Number(id)] : undefined;
+  usePageTitle(pkg ? pkg.title : "Package Not Found");
 
   if (!pkg) {
     return (
@@ -27,7 +28,6 @@ export default function PackageDetail() {
 
   return (
     <div className="flex w-full flex-col items-center pb-12">
-      <PageTitle title={pkg.title} />
       <PackageHero
         title={pkg.title}
         subtitle={pkg.subtitle}
