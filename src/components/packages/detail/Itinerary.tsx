@@ -2,7 +2,7 @@ import { ArrowRight, Car } from "lucide-react";
 
 interface ItineraryProps {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   pickup: string;
   dropoff: string;
   items: string[];

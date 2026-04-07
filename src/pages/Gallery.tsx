@@ -6,10 +6,17 @@ import PageTitle from "../components/PageTitle";
 
 const ITEMS_PER_PAGE = 12;
 
+type GalleryItem = {
+  id: number;
+  title: string;
+  tags: string[];
+  image: string;
+};
+
 export default function Gallery() {
   const [activeTag, setActiveTag] = useState("All");
   const [search, setSearch] = useState("");
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<GalleryItem | null>(null);
   const [page, setPage] = useState(1);
 
   const filtered = galleryItems.filter((item) => {

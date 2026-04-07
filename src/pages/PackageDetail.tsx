@@ -12,7 +12,7 @@ import PageTitle from "../components/PageTitle";
 
 export default function PackageDetail() {
   const { id } = useParams();
-  const pkg = id ? packages[id] : undefined;
+  const pkg = id ? packages[Number(id)] : undefined;
 
   if (!pkg) {
     return (
