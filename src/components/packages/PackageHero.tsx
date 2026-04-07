@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { Timer } from "lucide-react";
 import Button from "../Button";
 

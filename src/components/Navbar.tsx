@@ -4,7 +4,7 @@ import IDFlag from "../assets/id.png";
 import { ChevronDown, ChevronUp, Menu, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);

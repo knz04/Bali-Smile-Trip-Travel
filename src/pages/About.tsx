@@ -1,6 +1,6 @@
 import SectionHeader from "../components/SectionHeader";
 import dewa from "../assets/dewa.webp";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import Cta from "../components/Cta";
 import PageTitle from "../components/PageTitle";
 

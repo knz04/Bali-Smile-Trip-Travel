@@ -6,7 +6,7 @@ interface Props {
 
 export default function PageTitle({ title }: Props) {
   return (
-    <Helmet>
+    <Helmet prioritizeSeoTags>
       <title>{title} | Bali Smile Trip & Travel</title>
     </Helmet>
   );
