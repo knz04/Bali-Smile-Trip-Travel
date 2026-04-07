@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Packages from "./pages/Packages";
 import PackageDetail from "./pages/PackageDetail";
 import Gallery from "./pages/Gallery";
+import Book from "./pages/Book";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/packages/:id" element={<PackageDetail />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/book" element={<Book />} />
       </Routes>
       <Footer />
     </>
