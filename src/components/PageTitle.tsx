@@ -5,9 +5,11 @@ interface Props {
 }
 
 export default function PageTitle({ title }: Props) {
+  console.log("Helmet rendering:", title);
+
   return (
-    <Helmet prioritizeSeoTags>
-      <title>{title} | Bali Smile Trip & Travel</title>
+    <Helmet defer={false}>
+      <title key="title">{title} | Bali Smile Trip & Travel</title>
     </Helmet>
   );
 }
