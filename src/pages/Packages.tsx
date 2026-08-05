@@ -1,7 +1,8 @@
 import { Pin } from "lucide-react";
 import SectionHeader from "../components/SectionHeader";
 import PackageCard from "../components/packages/PackageCard";
-import transportServiceImage from "../assets/packages/transport-service.png";
+import transportServiceImage1 from "../assets/packages/transport-service-1.jpg";
+import transportServiceImage2 from "../assets/packages/transport-service-2.png";
 import { packages } from "../data/packages";
 import usePageTitle from "../components/PageTitle";
 
@@ -52,7 +53,12 @@ export default function Packages() {
       <div className="flex flex-col items-center justify-center gap-y-2 py-12">
         {" "}
         <img
-          src={transportServiceImage}
+          src={transportServiceImage1}
+          alt="Transport Service"
+          className="h-fit w-fit"
+        />
+        <img
+          src={transportServiceImage2}
           alt="Transport Service"
           className="h-fit w-fit"
         />
