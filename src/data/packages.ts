@@ -20,6 +20,8 @@ import halfDayImage from "../assets/packages/half-day-ubud.webp";
 import shamanicHealingImage from "../assets/packages/shamanic-healing.webp";
 import holyWaterImage from "../assets/packages/holy-water.webp";
 import sacredPathImage from "../assets/packages/sacred-path.webp";
+import terunyanImage from "../assets/packages/terunyan.webp";
+import wineYardImage from "../assets/packages/wine-yard.webp";
 import livinaX from "../assets/cars/livinax.webp";
 import reborn from "../assets/cars/reborn.webp";
 import hiace from "../assets/cars/hiace.webp";
@@ -794,7 +796,7 @@ export const packages = [
     exclusions: ["Entrance fees ", "Meals & lunch ", "Personal expenses "],
   },
   {
-    image: customImage,
+    image: wineYardImage,
     title: "Wine Yard Tour",
     subtitle: "Private Vineyard & Wine Experience in Bali",
     description:
@@ -1236,7 +1238,7 @@ export const packages = [
     },
   },
   {
-    image: customImage, // Make sure to import this or replace with correct var
+    image: terunyanImage, // Make sure to import this or replace with correct var
     title: "Terunyan & Penglipuran Cultural Heritage Tour",
     subtitle:
       "Authentic Balinese Tradition Experience by Bali Smile Trip & Travel",
