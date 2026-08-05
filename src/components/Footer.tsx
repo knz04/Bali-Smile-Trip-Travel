@@ -18,8 +18,8 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-y-1">
             <p className="text-background text-sm font-light lg:text-base">
-              Jl. Chandra Ayu Gg. Sandat Blk. 1 No.12 1 B, Batubulan, Kec.
-              Sukawati, Kabupaten Gianyar, Bali 80582
+              Jalan Candra Ayu 1 B Block 1 No 12 Batubulan, Kec Sukawati,
+              Kabupaten Gianyar 80582
             </p>
             <div className="flex flex-row gap-x-2">
               <img src={whatsapp} className="h-6 w-6" />
