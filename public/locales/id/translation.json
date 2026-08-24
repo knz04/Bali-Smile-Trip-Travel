@@ -1,0 +1,113 @@
+{
+  "common": {
+    "bookNow": "Pesan Sekarang",
+    "contact": "Kontak",
+    "contactDialog": {
+      "title": "Hubungi Kami",
+      "subtitle": "Bagaimana Anda ingin menghubungi kami?",
+      "whatsapp": "Hubungi via WhatsApp (Respon Cepat)",
+      "email": "Hubungi via Email"
+    }
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "packages": "Paket",
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  },
+  "footer": {
+    "address": "Jalan Candra Ayu 1 B Block 1 No 12 Batubulan, Kec Sukawati, Kabupaten Gianyar 80582",
+    "copyright": "Hak Cipta © 2026 Bali Smile Trip & Travel"
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Tur Pribadi Bali & Sopir Bersertifikat.",
+      "titleLine2": "Jelajahi Bali dengan Nyaman.",
+      "subtitle": "Menjelajahi Destinasi, Menciptakan Kenangan.",
+      "description": "Penyedia tur dan transportasi Bali tepercaya, di mana setiap perjalanan dibuat dengan hati, semangat, dan keramahan khas Bali.",
+      "ctaBook": "Pesan Tur Anda",
+      "ctaPackages": "Lihat Paket Kami"
+    },
+    "welcome": {
+      "title": "Selamat Datang di Bali Smile Trip & Travel",
+      "paragraph1": "Didirikan oleh Dewa Wahya, warga lokal Bali yang berdedikasi dengan pengalaman bertahun-tahun di industri pariwisata dan perhotelan, misi kami sederhana: menciptakan pengalaman perjalanan yang personal, bermakna, dan tak terlupakan di Bali.",
+      "paragraph2": "Kami lebih dari sekadar transportasi — kami berbagi cerita, wawasan, dan esensi autentik Bali di setiap perjalanan.",
+      "learnMore": "Selengkapnya"
+    },
+    "smile": {
+      "title": "Standar Perjalanan SMILE",
+      "subtitle": "Kami memastikan setiap perjalanan disampaikan melalui standar Perjalanan SMILE kami.",
+      "items": {
+        "safe": {
+          "title": "Aman",
+          "subtitle": "Keselamatan Anda adalah prioritas utama kami di sepanjang perjalanan."
+        },
+        "mindful": {
+          "title": "Nyaman & Lancar",
+          "subtitle": "Perjalanan yang direncanakan dengan matang, lancar, dan bebas stres."
+        },
+        "insightful": {
+          "title": "Informatif & Penuh Cerita",
+          "subtitle": "Setiap perjalanan diperkaya dengan cerita, budaya, dan kearifan lokal yang bermakna."
+        },
+        "luxury": {
+          "title": "Kenyamanan Mewah",
+          "subtitle": "Layanan yang nyaman, elegan, dan personal di setiap langkah."
+        },
+        "enjoyable": {
+          "title": " Menyenangkan & Memikat",
+          "subtitle": "Perjalanan penuh kegembiraan yang meninggalkan kenangan mendalam dan koneksi yang lebih dekat, diperkaya dengan cerita autentik Bali."
+        }
+      }
+    },
+    "key": {
+      "lines": [
+        "Ahli Lokal, Pengalaman Bali yang Autentik",
+        "Menciptakan Kenangan, Bukan Sekadar Foto",
+        "Perjalanan yang Disesuaikan untuk Setiap Wisatawan",
+        "Menjelajahi Destinasi, Menciptakan Kenangan",
+        "Kendaraan Nyaman & Premium",
+        "Pemandu Profesional, Bersertifikat & Peduli",
+        "Harga Jujur Tanpa Biaya Tersembunyi",
+        "Lebih dari Sekadar Tur — Kami Benar-Benar Peduli"
+      ]
+    },
+    "packages": {
+      "title": "Paket Kami",
+      "subtitle": "Pilih petualangan Bali impian Anda. Setiap paket sudah termasuk sopir pribadi dan layanan personal.",
+      "viewDetails": "Lihat Detail",
+      "items": {
+        "ubud": "Tur Esensial Ubud",
+        "north": "Perjalanan Bali Utara",
+        "east": "Perjalanan Bali Timur",
+        "south": "Perjalanan Bali Selatan",
+        "more": "Dan masih banyak lagi..."
+      }
+    },
+    "testimonials": {
+      "title": "Kata Tamu Kami",
+      "subtitle": "Tamu kami datang dari seluruh dunia, dan banyak yang kembali atau merekomendasikan kami.",
+      "items": {
+        "elliott": {
+          "name": "Elliot L.",
+          "review": "Secara keseluruhan, Dewa adalah pengemudi yang sangat berpengetahuan, baik hati, aman, dan fleksibel yang akan saya rekomendasikan kepada siapa saja."
+        },
+        "frank": {
+          "name": "Frank C.",
+          "review": "Dewa luar biasa dan saya sangat merekomendasikannya untuk semua orang yang mengunjungi Bali. Ia sangat memahami seluk-beluk pulau ini, cepat tanggap dalam berkomunikasi, dan fleksibel sesuai waktu dan keinginan Anda untuk hari itu."
+        },
+        "wendy": {
+          "name": "Wendy Y.",
+          "review": "Pemandu melakukan pekerjaan yang luar biasa, membawa kami ke banyak tempat indah dengan semua tambahan yang diperlukan. Orang yang luar biasa, sangat memahami sejarah Bali, 100% direkomendasikan. ✨"
+        }
+      }
+    },
+    "cta": {
+      "title": "Jadikan Kami Teman Lokal Anda di Bali",
+      "description": "Baik Anda mencari romansa, kebersamaan keluarga, kenyamanan mewah, atau eksplorasi penuh petualangan, Bali Smile Trip & Travel hadir untuk menciptakan perjalanan yang akan selalu Anda kenang.",
+      "planJourney": "Rencanakan Perjalanan Anda",
+      "contactWhatsapp": "Hubungi Kami via WhatsApp"
+    }
+  }
+}

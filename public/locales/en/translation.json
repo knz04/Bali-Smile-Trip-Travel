@@ -1,0 +1,113 @@
+{
+  "common": {
+    "bookNow": "Book Now",
+    "contact": "Contact",
+    "contactDialog": {
+      "title": "Contact Us",
+      "subtitle": "How would you like to contact us?",
+      "whatsapp": "Contact via WhatsApp (Fast response)",
+      "email": "Contact via Email"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "packages": "Packages",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "footer": {
+    "address": "Jalan Candra Ayu 1 B Block 1 No 12 Batubulan, Kec Sukawati, Kabupaten Gianyar 80582",
+    "copyright": "Copyright © 2026 Bali Smile Trip & Travel"
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Private Bali Tours & Certified Drivers.",
+      "titleLine2": "Explore Bali with Comfort.",
+      "subtitle": "Exploring Destinations, Creating Memories.",
+      "description": "Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality.",
+      "ctaBook": "Book Your Tour",
+      "ctaPackages": "View Our Packages"
+    },
+    "welcome": {
+      "title": "Welcome to Bali Smile Trip & Travel",
+      "paragraph1": "Founded by Dewa Wahya, a dedicated Balinese local with many years of experience in the tourism and hospitality industry, our mission is simple: to create personal, meaningful, and unforgettable travel experiences in Bali.",
+      "paragraph2": "We go beyond standard transportation — we share stories, insights, and the authentic essence of Bali during every trip.",
+      "learnMore": "Learn More"
+    },
+    "smile": {
+      "title": "The SMILE Journey Standard",
+      "subtitle": "We ensure every journey is delivered through our SMILE Journey standard.",
+      "items": {
+        "safe": {
+          "title": "Safe",
+          "subtitle": "Your safety is our highest priority throughout the journey."
+        },
+        "mindful": {
+          "title": "Mindful & Smooth",
+          "subtitle": "Thoughtfully planned, seamless, and stress-free travel experience."
+        },
+        "insightful": {
+          "title": "Insightful & Story-Driven",
+          "subtitle": "Every journey is enriched with meaningful stories, culture, and local wisdom."
+        },
+        "luxury": {
+          "title": "Luxury Comfort",
+          "subtitle": "Comfortable, refined, and personalized service at every step."
+        },
+        "enjoyable": {
+          "title": " Enjoyable & Enticing",
+          "subtitle": "A joyful journey that leaves lasting memories and deeper connection, enriched with authentic Balinese storytelling"
+        }
+      }
+    },
+    "key": {
+      "lines": [
+        "Local Experts, Authentic Bali Experiences",
+        "Creating Memories, Not Just Photos",
+        "Tailor-Made Journeys for Every Traveler",
+        "Exploring Destinations, Creating Memories",
+        "Comfortable & Premium Vehicles",
+        "Professional, Certified & Caring Guides",
+        "Honest Pricing with No Hidden Costs",
+        "More Than a Tour — We Truly Care"
+      ]
+    },
+    "packages": {
+      "title": "Our Packages",
+      "subtitle": "Choose your perfect Bali adventure. Every package includes a private driver and personalized service.",
+      "viewDetails": "View Details",
+      "items": {
+        "ubud": "Ubud Essential Tour",
+        "north": "North Bali Trip",
+        "east": "East Bali Trip",
+        "south": "South Bali Trip",
+        "more": "And more..."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Our guests come from around the world, and many return or recommend us.",
+      "items": {
+        "elliott": {
+          "name": "Elliot L.",
+          "review": "Overall, Dewa is an incredibly knowledgeable, kind, safe, and flexible driver who I would recommend to any and all."
+        },
+        "frank": {
+          "name": "Frank C.",
+          "review": "Dewa was exceptional and I highly recommend him to everyone visiting Bali. He is an expert of the island, very quick to communicate and flexible depending on your timing and desires for the day."
+        },
+        "wendy": {
+          "name": "Wendy Y.",
+          "review": "The guide did an excellent job, taking us to many beautiful places with all the necessary extras. A wonderful person, very knowledgeable about Bali's history, 100% recommended. ✨"
+        }
+      }
+    },
+    "cta": {
+      "title": "Let Us Be Your Local Friend in Bali",
+      "description": "Whether you seek romance, family bonding, luxury comfort, or adventurous exploration, Bali Smile Trip & Travel is here to create a journey you'll remember forever.",
+      "planJourney": "Plan Your Journey",
+      "contactWhatsapp": "Contact Us on WhatsApp"
+    }
+  }
+}

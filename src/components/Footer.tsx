@@ -3,8 +3,10 @@ import whatsapp from "../assets/whatsapp.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Button from "./Button";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   const [isContactOpen, setIsContactOpen] = useState(false);
 
   return (
@@ -23,8 +25,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-y-1">
             <p className="text-background text-sm font-light lg:text-base">
-              Jalan Candra Ayu 1 B Block 1 No 12 Batubulan, Kec Sukawati,
-              Kabupaten Gianyar 80582
+              {t("footer.address")}
             </p>
             <div className="flex flex-row gap-x-2">
               <img src={whatsapp} className="h-6 w-6" />
@@ -33,7 +34,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-background text-sm font-light lg:text-base">
-            Copyright &copy; 2026 Bali Smile Trip & Travel
+            {t("footer.copyright")}
           </p>
         </div>
 
@@ -42,31 +43,31 @@ export default function Footer() {
             to="/"
             className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base"
           >
-            Home
+            {t("nav.home")}
           </Link>
           <Link
             to="/about"
             className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base"
           >
-            About
+            {t("nav.about")}
           </Link>
           <Link
             to="/packages"
             className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base"
           >
-            Packages
+            {t("nav.packages")}
           </Link>
           <Link
             to="/gallery"
             className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base"
           >
-            Gallery
+            {t("nav.gallery")}
           </Link>
           <p
             onClick={() => setIsContactOpen(true)}
             className="text-background text-sm font-light hover:cursor-pointer hover:underline lg:text-base"
           >
-            Contact
+            {t("nav.contact")}
           </p>
         </div>
       </div>
@@ -88,20 +89,22 @@ export default function Footer() {
               <X size={14} />
             </button>
 
-            <h2 className="text-primary text-3xl xl:text-4xl">Contact Us</h2>
+            <h2 className="text-primary text-3xl xl:text-4xl">
+              {t("common.contactDialog.title")}
+            </h2>
             <p className="text-primary mt-1 text-sm font-light lg:text-base">
-              How would you like to contact us?
+              {t("common.contactDialog.subtitle")}
             </p>
 
             <div className="mt-6 flex w-full flex-col gap-3">
               <Link to="https://wa.me/6281238906395" target="_blank">
                 <Button className="w-full text-center">
-                  Contact via WhatsApp (Fast response)
+                  {t("common.contactDialog.whatsapp")}
                 </Button>
               </Link>
               <Link to="mailto:balismiletrip2025@gmail.com" target="_blank">
                 <Button className="w-full text-center">
-                  Contact via Email
+                  {t("common.contactDialog.email")}
                 </Button>
               </Link>
             </div>

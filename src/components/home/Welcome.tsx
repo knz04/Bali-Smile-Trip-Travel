@@ -1,7 +1,10 @@
 import Button from "../Button";
 import welcome from "../../assets/welcome.webp";
+import { useTranslation } from "react-i18next";
 
 export default function Welcome() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center gap-y-8 py-2 sm:h-[60vh] lg:h-screen lg:flex-row lg:gap-x-8 2xl:h-[80vh]">
       <div className="flex">
@@ -9,19 +12,15 @@ export default function Welcome() {
       </div>
       <div className="flex w-[90%] flex-col gap-y-4 lg:w-[40%]">
         <p className="text-start text-2xl sm:text-3xl xl:text-4xl">
-          Welcome to Bali Smile Trip & Travel
+          {t("home.welcome.title")}
         </p>
         <p className="pt-2 text-sm font-light lg:max-w-[75%] lg:text-base">
-          Founded by Dewa Wahya, a dedicated Balinese local with many years of
-          experience in the tourism and hospitality industry, our mission is
-          simple: to create personal, meaningful, and unforgettable travel
-          experiences in Bali.
+          {t("home.welcome.paragraph1")}
         </p>
         <p className="pt-2 text-sm font-light lg:max-w-[75%] lg:text-base">
-          We go beyond standard transportation — we share stories, insights, and
-          the authentic essence of Bali during every trip.
+          {t("home.welcome.paragraph2")}
         </p>
-        <Button>Learn More</Button>
+        <Button>{t("home.welcome.learnMore")}</Button>
       </div>
     </div>
   );
