@@ -1,6 +1,7 @@
 import Button from "../Button";
 import welcome from "../../assets/welcome.webp";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Welcome() {
   const { t } = useTranslation();
@@ -20,7 +21,9 @@ export default function Welcome() {
         <p className="pt-2 text-sm font-light lg:max-w-[75%] lg:text-base">
           {t("home.welcome.paragraph2")}
         </p>
-        <Button>{t("home.welcome.learnMore")}</Button>
+        <Link to="/about">
+          <Button>{t("home.welcome.learnMore")}</Button>
+        </Link>
       </div>
     </div>
   );

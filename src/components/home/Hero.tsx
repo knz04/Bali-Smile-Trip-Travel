@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroImage from "../../assets/hero-home.webp";
 import Button from "../Button";
 import { useTranslation } from "react-i18next";
@@ -26,8 +27,12 @@ export default function Hero() {
           {t("home.hero.description")}
         </p>
         <div className="flex flex-col items-center justify-center gap-x-4 gap-y-2 pt-2 sm:flex-row">
-          <Button>{t("home.hero.ctaBook")}</Button>
-          <Button>{t("home.hero.ctaPackages")}</Button>
+          <Link to="/book">
+            <Button>{t("home.hero.ctaBook")}</Button>
+          </Link>
+          <Link to="/packages">
+            <Button>{t("home.hero.ctaPackages")}</Button>
+          </Link>
         </div>
       </div>
     </div>

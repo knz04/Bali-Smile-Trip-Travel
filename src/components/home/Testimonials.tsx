@@ -14,7 +14,7 @@ export default function Testimonials() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex h-[150vh] flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:py-0 2xl:h-[60vh]">
+    <div className="flex h-fit flex-col items-center justify-center gap-y-12 py-2 sm:h-screen lg:py-0 2xl:h-[60vh]">
       <div className="flex flex-col items-center justify-center">
         <p className="text-2xl sm:text-3xl xl:text-4xl">
           {t("home.testimonials.title")}
