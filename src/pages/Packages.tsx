@@ -1,8 +1,8 @@
 import { Pin } from "lucide-react";
 import SectionHeader from "../components/SectionHeader";
 import PackageCard from "../components/packages/PackageCard";
-import transportServiceImage1 from "../assets/packages/transport-service-1.JPG";
-import transportServiceImage2 from "../assets/packages/transport-service-2.PNG";
+import transportServiceImage1 from "../assets/packages/transport-service-1.jpg";
+import transportServiceImage2 from "../assets/packages/transport-service-2.png";
 import { packages } from "../data/packages";
 import usePageTitle from "../components/PageTitle";
 import { useTranslation } from "react-i18next";
