@@ -49,10 +49,20 @@ export default function PackageDetail() {
       }
     : undefined;
 
-  const translatedItinerary = pkg.itinerary
+  const itinerary = pkg.itinerary as
+    | {
+        title: string;
+        subtitle?: string;
+        pickup: string;
+        dropoff: string;
+        items: string[];
+      }
+    | undefined;
+
+  const translatedItinerary = itinerary
     ? {
         title: t(`${base}.itinerary.title`),
-        subtitle: pkg.itinerary.subtitle
+        subtitle: itinerary.subtitle
           ? t(`${base}.itinerary.subtitle`)
           : undefined,
         pickup: t(`${base}.itinerary.pickup`),
@@ -70,7 +80,14 @@ export default function PackageDetail() {
           title: t(`${base}.vehicles.mainTitle`),
           description: t(`${base}.vehicles.mainDescription`),
         },
-        upgrade: pkg.vehicles.upgrade.map((v, i) => ({
+        upgrade: (
+          pkg.vehicles.upgrade as Array<{
+            title: string;
+            price: string;
+            image: string;
+            description?: string;
+          }>
+        ).map((v, i) => ({
           ...v,
           title: t(`${base}.vehicles.upgrade.${i}.title`),
           description: v.description
@@ -80,14 +97,25 @@ export default function PackageDetail() {
       }
     : undefined;
 
-  const translatedPricing = pkg.pricing
+  const pricing = pkg.pricing as
+    | {
+        title: string;
+        options?: { title: string; price: string }[];
+        categories?: {
+          name: string;
+          options: { title: string; price: string }[];
+        }[];
+      }
+    | undefined;
+
+  const translatedPricing = pricing
     ? {
         title: t(`${base}.pricing.title`),
-        options: pkg.pricing.options?.map((opt, i) => ({
+        options: pricing.options?.map((opt, i) => ({
           ...opt,
           title: t(`${base}.pricing.options.${i}.title`),
         })),
-        categories: pkg.pricing.categories?.map((cat, i) => ({
+        categories: pricing.categories?.map((cat, i) => ({
           ...cat,
           name: t(`${base}.pricing.categories.${i}.name`),
           options: cat.options.map((opt, j) => ({
