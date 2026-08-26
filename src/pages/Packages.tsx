@@ -5,36 +5,35 @@ import transportServiceImage1 from "../assets/packages/transport-service-1.jpg";
 import transportServiceImage2 from "../assets/packages/transport-service-2.png";
 import { packages } from "../data/packages";
 import usePageTitle from "../components/PageTitle";
+import { useTranslation } from "react-i18next";
 
 export default function Packages() {
-  usePageTitle("Packages");
+  const { t } = useTranslation();
+  usePageTitle(t("packages.pageTitle"));
+
+  const notesItems = t("packages.notes.items", {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <>
       <SectionHeader
-        heading="Our Packages"
-        subheading="Choose your perfect Bali adventure. Every package includes a private driver and personalized service."
+        heading={t("packages.header.heading")}
+        subheading={t("packages.header.subheading")}
       />
 
       {/* Important notes */}
       <div className="flex flex-col items-center justify-center gap-y-2 py-12">
         <div className="flex flex-row items-center justify-center gap-x-2">
           <Pin />
-          <p>Important Notes:</p>
+          <p>{t("packages.notes.title")}</p>
         </div>
         <ul className="list-disc pb-4 pl-5">
-          <li className="text-sm font-light lg:text-base">
-            These are private tour packages (no sharing with other guests).
-          </li>
-          <li className="text-sm font-light lg:text-base">
-            Itinerary is flexible and can be adjusted to your interests.
-          </li>
-          <li className="text-sm font-light lg:text-base">
-            Start time is adjustable upon request.
-          </li>
-          <li className="text-sm font-light lg:text-base">
-            Advance booking is recommended, typically during peak season.
-          </li>
+          {notesItems.map((item, i) => (
+            <li key={i} className="text-sm font-light lg:text-base">
+              {item}
+            </li>
+          ))}
         </ul>
       </div>
 
@@ -44,8 +43,8 @@ export default function Packages() {
             key={index}
             id={index}
             image={pack.image}
-            title={pack.title}
-            description={pack.description}
+            title={t(`packages.items.${pack.id}.title`)}
+            description={t(`packages.items.${pack.id}.description`)}
           />
         ))}
       </div>

@@ -3,34 +3,41 @@ import dewa from "../assets/dewa.webp";
 import { Link } from "react-router-dom";
 import Cta from "../components/Cta";
 import usePageTitle from "../components/PageTitle";
+import { useTranslation } from "react-i18next";
 
-const stats = [
-  {
-    amount: "10+",
-    text: "Years of Experience",
-  },
-  {
-    amount: "100+",
-    text: "Tours Completed",
-  },
-  {
-    amount: "100+",
-    text: "Happy Guests",
-  },
-  {
-    amount: "100+",
-    text: "5-Star Reviews",
-  },
-];
+const statAmounts = ["10+", "100+", "100+", "100+"];
 
 export default function About() {
-  usePageTitle("About");
+  const { t } = useTranslation();
+  usePageTitle(t("about.pageTitle"));
+
+  const statTexts = t("about.stats.items", { returnObjects: true }) as string[];
+  const stats = statAmounts.map((amount, i) => ({
+    amount,
+    text: statTexts[i],
+  }));
+
+  const philosophyList = t("about.founder.philosophyList", {
+    returnObjects: true,
+  }) as string[];
+  const item3List = t("about.why.item3.list", {
+    returnObjects: true,
+  }) as string[];
+  const item4List = t("about.why.item4.list", {
+    returnObjects: true,
+  }) as string[];
+  const item5List = t("about.why.item5.list", {
+    returnObjects: true,
+  }) as string[];
+  const item8List = t("about.why.item8.list", {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <div className="flex w-full flex-col">
       <SectionHeader
-        heading="About Us"
-        subheading="Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality."
+        heading={t("about.header.heading")}
+        subheading={t("about.header.subheading")}
       />
 
       <div className="flex flex-col justify-around p-8 md:p-12 lg:flex-row">
@@ -39,10 +46,10 @@ export default function About() {
           <img src={dewa} className="w-fit sm:h-48 md:h-60 lg:h-80" />
           <div className="flex flex-col">
             <p className="text-primary text-center text-sm font-normal lg:text-base">
-              Dewa Wahya
+              {t("about.founder.name")}
             </p>
             <p className="text-primary text-center text-sm font-light lg:text-base">
-              Founder & Local Travel Expert
+              {t("about.founder.role")}
             </p>
           </div>
         </div>
@@ -52,243 +59,203 @@ export default function About() {
           {/* Meet our founder*/}
           <div className="flex flex-col">
             <p className="text-primary pb-6 text-3xl xl:text-4xl">
-              Meet Our Founder
+              {t("about.founder.meetTitle")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              Dewa Wahya is the founder of Bali Smile Trip & Travel, a trusted
-              Bali tour and travel service specializing in private Bali tours,
-              personalized itineraries, and authentic local experiences.
+              {t("about.founder.intro1")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              Born and raised in Bali, Dewa developed a deep connection to the
-              island’s culture, traditions, and landscapes knowledge that goes
-              far beyond popular tourist attractions.
+              {t("about.founder.intro2")}
             </p>
             <p className="text-primary text-sm font-normal lg:text-base">
-              Hospitality Background & Luxury Service Experience
+              {t("about.founder.hospitalityHeading")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              Before establishing Bali Smile Trip & Travel, Dewa built his
-              professional career as a Hotel Manager and Luxury Villa Manager in
-              Bali. Working closely with international guests, he gained
-              extensive experience in delivering high-end hospitality standards,
-              personalized service, comfort, privacy, and attention to detail.
+              {t("about.founder.hospitalityP1")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              This background allows him to understand exactly what couples,
-              families, and luxury travelers expect from a premium Bali travel
-              experience.
+              {t("about.founder.hospitalityP2")}
             </p>
             <p className="text-primary text-sm font-normal lg:text-base">
-              Certified Tour Guide & Private Driver in Bali{" "}
+              {t("about.founder.certifiedHeading")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              In addition to his hospitality career, Dewa has years of hands-on
-              experience as a certified Bali tour guide and private driver. He
-              combines professional guiding skills with local insight to provide
-              journeys that are safe, smooth, and enjoyable. As a local tour
-              guide in Bali, he offers cultural storytelling, flexible
-              itineraries, and genuine recommendations tailored to each guest’s
-              travel style.
+              {t("about.founder.certifiedP1")}
             </p>
             <p className="text-primary text-sm font-normal lg:text-base">
-              A Philosophy Built on Meaningful Travel
+              {t("about.founder.philosophyHeading")}
             </p>
             <p className="text-primary text-sm font-light lg:text-base">
-              Dewa’s personal philosophy, “Exploring Destinations, Creating
-              Memories,” is the foundation of every tour. Each journey is
-              designed to deliver:
+              {t("about.founder.philosophyIntro")}
             </p>
             <ul className="list-disc pb-4 pl-5">
-              <li className="text-primary text-sm font-light lg:text-base">
-                Safety and comfort
-              </li>
-              <li className="text-primary text-sm font-light lg:text-base">
-                Smooth travel flow
-              </li>
-              <li className="text-primary text-sm font-light lg:text-base">
-                Enjoyable experiences
-              </li>
-              <li className="text-primary text-sm font-light lg:text-base">
-                Authentic Balinese storytelling
-              </li>
+              {philosophyList.map((item, i) => (
+                <li
+                  key={i}
+                  className="text-primary text-sm font-light lg:text-base"
+                >
+                  {item}
+                </li>
+              ))}
             </ul>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              Whether it’s a romantic couple’s trip, a family holiday, a luxury
-              escape, or an adventure tour, every experience is thoughtfully
-              curated.
+              {t("about.founder.philosophyOutro")}
             </p>
             <p className="text-primary text-sm font-normal lg:text-base">
-              More Than a Tour — A Local Friend in Bali
+              {t("about.founder.friendHeading")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              For Dewa, guests are never treated as customers, but as friends
-              visiting his home island. His goal is to ensure every traveler
-              feels comfortable, cared for, and confident throughout their
-              journey in Bali.
+              {t("about.founder.friendP1")}
             </p>
             <p className="text-primary pb-4 text-sm font-light lg:text-base">
-              Through Bali Smile Trip & Travel, he continues to share Bali with
-              honesty, professionalism, and heartfelt hospitality.
+              {t("about.founder.friendP2")}
             </p>
           </div>
 
           {/* Why choose us*/}
           <div>
             <p className="text-primary pb-6 text-3xl font-normal xl:text-4xl">
-              Here is why Bali Smile Trip & Travel is the perfect choice for
-              you:
+              {t("about.why.heading")}
             </p>
             <div className="flex flex-col gap-y-6">
+              {/* Item 1 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     1
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Local Experts, Authentic Bali Experiences
+                    {t("about.why.item1.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  We are local Balinese professionals who truly understand the
-                  island its culture, traditions, and hidden gems beyond the
-                  usual tourist routes. With us, you don’t just visit Bali; you
-                  experience it authentically.
+                  {t("about.why.item1.description")}
                 </p>
               </div>
+              {/* Item 2 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     2
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Creating Memories, Not Just Photos
+                    {t("about.why.item2.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  This is more than a tagline it’s our philosophy. Every journey
-                  is carefully designed to create meaningful moments, emotional
-                  connections, and lasting memories, not just great photos.
+                  {t("about.why.item2.description")}
                 </p>
               </div>
+              {/* Item 3 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     3
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Tailor-Made Journeys for Every Traveler
+                    {t("about.why.item3.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  No two travelers are the same and neither are our tours. We
-                  create fully customized itineraries for:
+                  {t("about.why.item3.listIntro")}
                 </p>
                 <ul className="list-disc pb-4 pl-5">
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Romantic escapes for couples
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Safe and enjoyable trips for families
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Exclusive, refined experiences for luxury travelers
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Thrilling routes for adventure lovers
-                  </li>
+                  {item3List.map((item, i) => (
+                    <li
+                      key={i}
+                      className="text-primary text-sm font-light lg:text-base"
+                    >
+                      {item}
+                    </li>
+                  ))}
                 </ul>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Your interests, pace, and comfort always come first.
+                  {t("about.why.item3.listOutro")}
                 </p>
               </div>
+              {/* Item 4 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     4
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Exploring Destinations, Creating Memories
+                    {t("about.why.item4.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  We are not just drivers. We are certified guides and hosts,
-                  who are:
+                  {t("about.why.item4.listIntro")}
                 </p>
                 <ul className="list-disc pb-4 pl-5">
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Experienced and knowledgeable
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Fluent in English
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Friendly, patient, and attentive
-                  </li>
+                  {item4List.map((item, i) => (
+                    <li
+                      key={i}
+                      className="text-primary text-sm font-light lg:text-base"
+                    >
+                      {item}
+                    </li>
+                  ))}
                 </ul>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  We ensure every journey is delivered through our SMILE Journey
-                  standard.
+                  {t("about.why.item4.listOutro")}
                 </p>
               </div>
+              {/* Item 5 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     5
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Comfortable & Premium Vehicles
+                    {t("about.why.item5.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Travel in comfort with our well maintained vehicles:
+                  {t("about.why.item5.listIntro")}
                 </p>
                 <ul className="list-disc pb-4 pl-5">
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Clean, modern interiors
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Cold air-conditioning
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Ideal for both short city rides and long scenic journeys
-                  </li>
+                  {item5List.map((item, i) => (
+                    <li
+                      key={i}
+                      className="text-primary text-sm font-light lg:text-base"
+                    >
+                      {item}
+                    </li>
+                  ))}
                 </ul>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Comfort is a key part of a great travel experience.
+                  {t("about.why.item5.listOutro")}
                 </p>
               </div>
+              {/* Item 6 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     6
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Professional, Certified & Caring Guides
+                    {t("about.why.item6.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Transparency is our promise. What we quote is what you pay—no
-                  surprises, no hidden fees. We believe true quality speaks for
-                  itself.
+                  {t("about.why.item6.description")}
                 </p>
               </div>
+              {/* Item 7 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     7
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    Honest Pricing with No Hidden Costs
+                    {t("about.why.item7.title")}
                   </p>
                 </div>
                 <p className="text-primary pb-4 text-sm font-light lg:text-base">
-                  Our guests come from around the world, and many return or
-                  recommend us. Their positive experiences are reflected in our
-                  Google Reviews. Real Review, Real Experience.
+                  {t("about.why.item7.description1")}
                 </p>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Read what our guests say about us!
+                  {t("about.why.item7.description2")}
                 </p>
                 <Link
                   to="https://maps.app.goo.gl/r8nSb1v5k6963Wp86?g_st=ipc"
@@ -298,34 +265,31 @@ export default function About() {
                   https://maps.app.goo.gl/r8nSb1v5k6963Wp86?g_st=ipc
                 </Link>
               </div>
+              {/* Item 8 */}
               <div className="flex flex-col">
                 <div className="flex flex-row items-center gap-x-2 pb-2">
                   <p className="text-yellow bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-xl md:h-12 md:w-12 md:text-2xl lg:text-3xl">
                     8
                   </p>
                   <p className="text-2xl lg:text-3xl">
-                    More Than a Tour — We Truly Cares
+                    {t("about.why.item8.title")}
                   </p>
                 </div>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  We care about:
+                  {t("about.why.item8.listIntro")}
                 </p>
                 <ul className="list-disc pb-4 pl-5">
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Your experience and comfort
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Respecting Balinese culture and traditions
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Supporting local communities
-                  </li>
-                  <li className="text-primary text-sm font-light lg:text-base">
-                    Preserving Bali’s natural beauty
-                  </li>
+                  {item8List.map((item, i) => (
+                    <li
+                      key={i}
+                      className="text-primary text-sm font-light lg:text-base"
+                    >
+                      {item}
+                    </li>
+                  ))}
                 </ul>
                 <p className="text-primary text-sm font-light lg:text-base">
-                  Travel with purpose, not just destinations.
+                  {t("about.why.item8.listOutro")}
                 </p>
               </div>
             </div>
@@ -337,10 +301,10 @@ export default function About() {
           <img src={dewa} className="w-fit lg:h-80" />
           <div className="flex flex-col">
             <p className="text-primary text-center font-normal lg:text-base">
-              Dewa Wahya
+              {t("about.founder.name")}
             </p>
             <p className="text-primary text-center font-light lg:text-base">
-              Founder & Local Travel Expert
+              {t("about.founder.role")}
             </p>
           </div>
         </div>

@@ -1,6 +1,7 @@
 {
   "common": {
     "bookNow": "Pesan Sekarang",
+    "learnMore": "Selengkapnya",
     "contact": "Kontak",
     "contactDialog": {
       "title": "Hubungi Kami",
@@ -108,6 +109,1288 @@
       "description": "Baik Anda mencari romansa, kebersamaan keluarga, kenyamanan mewah, atau eksplorasi penuh petualangan, Bali Smile Trip & Travel hadir untuk menciptakan perjalanan yang akan selalu Anda kenang.",
       "planJourney": "Rencanakan Perjalanan Anda",
       "contactWhatsapp": "Hubungi Kami via WhatsApp"
+    }
+  },
+  "about": {
+    "pageTitle": "Tentang Kami",
+    "header": {
+      "heading": "Tentang Kami",
+      "subheading": "Penyedia tur dan transportasi Bali tepercaya, di mana setiap perjalanan dibuat dengan hati, semangat, dan keramahan khas Bali."
+    },
+    "stats": {
+      "items": [
+        "Tahun Pengalaman",
+        "Tur Selesai",
+        "Tamu Bahagia",
+        "Ulasan Bintang 5"
+      ]
+    },
+    "founder": {
+      "name": "Dewa Wahya",
+      "role": "Pendiri & Pakar Wisata Lokal",
+      "meetTitle": "Kenali Pendiri Kami",
+      "intro1": "Dewa Wahya adalah pendiri Bali Smile Trip & Travel, layanan tur dan perjalanan Bali tepercaya yang mengkhususkan diri dalam tur pribadi Bali, itinerari yang dipersonalisasi, dan pengalaman lokal yang autentik.",
+      "intro2": "Lahir dan dibesarkan di Bali, Dewa mengembangkan hubungan mendalam dengan budaya, tradisi, dan lanskap pulau ini — pengetahuan yang jauh melampaui atraksi wisata populer.",
+      "hospitalityHeading": "Latar Belakang Perhotelan & Pengalaman Layanan Mewah",
+      "hospitalityP1": "Sebelum mendirikan Bali Smile Trip & Travel, Dewa membangun kariernya sebagai Manajer Hotel dan Manajer Vila Mewah di Bali. Bekerja erat dengan tamu internasional, ia memperoleh pengalaman luas dalam memberikan standar perhotelan kelas atas, layanan personal, kenyamanan, privasi, dan perhatian terhadap detail.",
+      "hospitalityP2": "Latar belakang ini memungkinkannya memahami dengan tepat apa yang diharapkan pasangan, keluarga, dan wisatawan mewah dari pengalaman perjalanan Bali premium.",
+      "certifiedHeading": "Pemandu Wisata Bersertifikat & Sopir Pribadi di Bali",
+      "certifiedP1": "Selain kariernya di bidang perhotelan, Dewa memiliki pengalaman bertahun-tahun sebagai pemandu wisata Bali bersertifikat dan sopir pribadi. Ia memadukan keterampilan memandu profesional dengan wawasan lokal untuk memberikan perjalanan yang aman, lancar, dan menyenangkan. Sebagai pemandu wisata lokal di Bali, ia menawarkan cerita budaya, itinerari fleksibel, dan rekomendasi tulus yang disesuaikan dengan gaya perjalanan setiap tamu.",
+      "philosophyHeading": "Filosofi yang Dibangun di Atas Perjalanan Bermakna",
+      "philosophyIntro": "Filosofi pribadi Dewa, \"Menjelajahi Destinasi, Menciptakan Kenangan,\" menjadi landasan setiap tur. Setiap perjalanan dirancang untuk menghadirkan:",
+      "philosophyList": [
+        "Keamanan dan kenyamanan",
+        "Alur perjalanan yang lancar",
+        "Pengalaman yang menyenangkan",
+        "Cerita autentik khas Bali"
+      ],
+      "philosophyOutro": "Baik itu perjalanan romantis pasangan, liburan keluarga, pelarian mewah, atau tur petualangan, setiap pengalaman dirancang dengan penuh perhatian.",
+      "friendHeading": "Lebih dari Sekadar Tur — Teman Lokal di Bali",
+      "friendP1": "Bagi Dewa, tamu tidak pernah diperlakukan sebagai pelanggan, melainkan sebagai teman yang mengunjungi pulau tempat tinggalnya. Tujuannya adalah memastikan setiap wisatawan merasa nyaman, diperhatikan, dan percaya diri sepanjang perjalanan mereka di Bali.",
+      "friendP2": "Melalui Bali Smile Trip & Travel, ia terus berbagi Bali dengan kejujuran, profesionalisme, dan keramahan yang tulus."
+    },
+    "why": {
+      "heading": "Inilah alasan mengapa Bali Smile Trip & Travel adalah pilihan yang tepat untuk Anda:",
+      "item1": {
+        "title": "Ahli Lokal, Pengalaman Bali yang Autentik",
+        "description": "Kami adalah profesional lokal Bali yang benar-benar memahami pulau ini — budaya, tradisi, dan permata tersembunyi di luar rute wisata biasa. Bersama kami, Anda tidak hanya mengunjungi Bali; Anda mengalaminya secara autentik."
+      },
+      "item2": {
+        "title": "Menciptakan Kenangan, Bukan Sekadar Foto",
+        "description": "Ini lebih dari sekadar slogan — ini adalah filosofi kami. Setiap perjalanan dirancang dengan cermat untuk menciptakan momen bermakna, koneksi emosional, dan kenangan abadi, bukan sekadar foto yang bagus."
+      },
+      "item3": {
+        "title": "Perjalanan yang Disesuaikan untuk Setiap Wisatawan",
+        "listIntro": "Tidak ada dua wisatawan yang sama, begitu pula tur kami. Kami membuat itinerari yang sepenuhnya disesuaikan untuk:",
+        "list": [
+          "Pelarian romantis untuk pasangan",
+          "Perjalanan aman dan menyenangkan untuk keluarga",
+          "Pengalaman eksklusif dan elegan untuk wisatawan mewah",
+          "Rute yang mendebarkan untuk pencinta petualangan"
+        ],
+        "listOutro": "Minat, kecepatan, dan kenyamanan Anda selalu menjadi prioritas utama."
+      },
+      "item4": {
+        "title": "Menjelajahi Destinasi, Menciptakan Kenangan",
+        "listIntro": "Kami bukan sekadar sopir. Kami adalah pemandu dan tuan rumah bersertifikat, yang:",
+        "list": [
+          "Berpengalaman dan berpengetahuan luas",
+          "Fasih berbahasa Inggris",
+          "Ramah, sabar, dan penuh perhatian"
+        ],
+        "listOutro": "Kami memastikan setiap perjalanan disampaikan melalui standar Perjalanan SMILE kami."
+      },
+      "item5": {
+        "title": "Kendaraan Nyaman & Premium",
+        "listIntro": "Bepergianlah dengan nyaman menggunakan kendaraan kami yang terawat baik:",
+        "list": [
+          "Interior bersih dan modern",
+          "AC yang dingin",
+          "Ideal untuk perjalanan singkat di kota maupun perjalanan panjang yang panoramik"
+        ],
+        "listOutro": "Kenyamanan adalah bagian penting dari pengalaman perjalanan yang hebat."
+      },
+      "item6": {
+        "title": "Pemandu Profesional, Bersertifikat & Peduli",
+        "description": "Transparansi adalah janji kami. Apa yang kami tawarkan adalah yang Anda bayar—tanpa kejutan, tanpa biaya tersembunyi. Kami percaya kualitas sejati akan berbicara sendiri."
+      },
+      "item7": {
+        "title": "Harga Jujur Tanpa Biaya Tersembunyi",
+        "description1": "Tamu kami datang dari seluruh dunia, dan banyak yang kembali atau merekomendasikan kami. Pengalaman positif mereka tercermin dalam Ulasan Google kami. Ulasan Nyata, Pengalaman Nyata.",
+        "description2": "Baca apa kata tamu kami tentang kami!"
+      },
+      "item8": {
+        "title": "Lebih dari Sekadar Tur — Kami Benar-Benar Peduli",
+        "listIntro": "Kami peduli dengan:",
+        "list": [
+          "Pengalaman dan kenyamanan Anda",
+          "Menghormati budaya dan tradisi Bali",
+          "Mendukung komunitas lokal",
+          "Melestarikan keindahan alam Bali"
+        ],
+        "listOutro": "Berwisata dengan tujuan, bukan sekadar destinasi."
+      }
+    }
+  },
+  "packages": {
+    "pageTitle": "Paket",
+    "header": {
+      "heading": "Paket Kami",
+      "subheading": "Pilih petualangan Bali impian Anda. Setiap paket sudah termasuk sopir pribadi dan layanan personal."
+    },
+    "notes": {
+      "title": "Catatan Penting:",
+      "items": [
+        "Ini adalah paket tur pribadi (tidak digabung dengan tamu lain).",
+        "Itinerari bersifat fleksibel dan dapat disesuaikan dengan minat Anda.",
+        "Waktu mulai dapat disesuaikan sesuai permintaan.",
+        "Pemesanan lebih awal disarankan, terutama pada musim ramai."
+      ]
+    },
+    "items": {
+      "ubud-essential": {
+        "title": "Tur Esensial Ubud",
+        "description": "Tur Esensial Ubud oleh Bali Smile Trip & Travel adalah tur sehari pribadi di Bali yang dirancang untuk mengungkap jiwa sejati Ubud.",
+        "subtitle": "Tur Sehari Pribadi Bali bersama Pemandu Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 8-10 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Kelas Membuat Perak Tradisional Bali di Ubud",
+            "Kelas Melukis Batik Tradisional Bali di Ubud",
+            "Sawah Terasering Tegalalang & Ayunan (opsional)",
+            "Air terjun tersembunyi dikelilingi alam",
+            "Kunjungan ke Kompleks Rumah Tradisional Bali Kuno",
+            "Pengalaman Perkebunan Kopi Luwak",
+            "Sungai suci & pemandangan alam",
+            "Kunjungan pura tradisional dengan cerita budaya"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Fleksibel & Pribadi)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Pengantaran: Hotel / Vila",
+          "items": [
+            "Lokakarya Membuat Perak – Ubud",
+            "Lokakarya Membuat Batik Bali – Ubud",
+            "Sawah Terasering Tegalalang & Ayunan",
+            "Eksplorasi Air Terjun Tersembunyi",
+            "Kompleks Rumah Tradisional Bali",
+            "Perkebunan Kopi Luwak",
+            "Kunjungan Pura & Penjelasan Budaya"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Tur Pribadi Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn",
+              "description": "(Lebih luas & kenyamanan premium)"
+            },
+            {
+              "title": "Toyota Hiace – 12 Kursi",
+              "description": "(Ideal untuk keluarga & kelompok kecil)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Standar Layanan Perjalanan SMILE",
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "north-bali": {
+        "title": "Perjalanan Bali Utara",
+        "description": "Perjalanan Bali Utara oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi menuju sisi pulau yang lebih sejuk, lebih hijau, dan lebih sepi wisatawan.",
+        "subtitle": "Tur Sehari Pribadi Bali bersama Pemandu Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 10–12 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Pura Ulun Danu Beratan (pura danau yang ikonik)",
+            "Gerbang Handara (pemberhentian foto pemandangan – opsional)",
+            "Air Terjun Kembar Banyumala atau Air Terjun Sekumpul",
+            "Wanagiri Hidden Hills (titik pandang danau)",
+            "Perjalanan pemandangan gunung & danau melalui Bedugul",
+            "Cerita budaya & wawasan desa lokal",
+            "Bali Farm House"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke Dataran Tinggi Bedugul",
+            "Pura Ulun Danu Beratan",
+            "Gerbang Handara (opsional)",
+            "Eksplorasi air terjun (Banyumala atau Gitgit)",
+            "Titik pandang Wanagiri Hidden Hills"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "west-bali": {
+        "title": "Perjalanan Bali Barat",
+        "description": "Tur Perjalanan Bali Barat oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi menuju salah satu wilayah Bali yang paling alami dan indah.",
+        "subtitle": "Tur Sehari Pribadi Bali bersama Pemandu Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 10–12 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Pura Taman Ayun",
+            "Air Terjun Pangempu",
+            "Desa tradisional lokal (Pinge)",
+            "Sawah Terasering Jatiluwih & pemandangan pedesaan",
+            "Pura Tanah Lot (pura pesisir & pemandangan matahari terbenam)"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Pura Taman Ayun",
+            "Air Terjun Pangempu",
+            "Desa tradisional lokal (Pinge)",
+            "Sawah Terasering Jatiluwih & pemandangan pedesaan",
+            "Pura Tanah Lot (pura pesisir & pemandangan matahari terbenam)"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "east-bali": {
+        "title": "Perjalanan Bali Timur",
+        "description": "Paket Perjalanan Bali Timur oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi menuju salah satu wilayah Bali yang paling kaya budaya dan indah.",
+        "subtitle": "Tur Sehari Pribadi Bali bersama Pemandu Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 10–12 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Pura Lempuyang (Gerbang Surga) – spot foto ikonik",
+            "Istana Air Tirta Gangga",
+            "Taman Ujung (Istana Air Ujung)",
+            "Desa tradisional & pemandangan pedesaan (Tenganan)",
+            "Perjalanan pemandangan melalui lanskap Bali Timur",
+            "Menunggang kuda di tepi pantai",
+            "Cerita budaya & wawasan lokal"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke Bali Timur",
+            "Pura Lempuyang (Gerbang Surga)",
+            "Istana Air Tirta Gangga",
+            "Istana Air Taman Ujung",
+            "Eksplorasi desa tradisional"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "south-bali": {
+        "title": "Perjalanan Bali Selatan",
+        "description": "Paket Bali Selatan oleh Bali Smile Trip & Travel adalah tur sehari pribadi yang dirancang untuk menampilkan destinasi pesisir paling ikonik di Bali, tebing dramatis, pura suci, dan suasana pantai yang meriah.",
+        "subtitle": "Tur Sehari Pribadi Bali bersama Pemandu Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 8–10 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Pura Uluwatu (pemandangan laut di atas tebing & matahari terbenam)",
+            "Tari Kecak Api (opsional – pertunjukan malam)",
+            "Pantai Padang Padang atau Pantai Melasti",
+            "Taman Budaya GWK (Garuda Wisnu Kencana)",
+            "Perjalanan pesisir yang indah di Bali Selatan",
+            "Cerita budaya & wawasan lokal"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Kunjungan ke Taman Budaya GWK",
+            "Pemberhentian pantai (Padang Padang / Melasti)",
+            "Eksplorasi Pura Uluwatu",
+            "Tari Kecak Api (opsional)"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "ubud-adventure": {
+        "title": "Tur Petualangan Ubud",
+        "description": "Tur Petualangan Ubud oleh Bali Smile Trip & Travel adalah pengalaman sehari penuh pribadi yang dirancang untuk wisatawan yang menyukai alam, petualangan ringan, dan pertemuan budaya yang autentik.",
+        "subtitle": "Pengalaman Alam & Petualangan Pribadi di Bali",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Eksplorasi Air Terjun Tersembunyi (Tibumana / Kanto Lampo / Tegenungan)",
+            "Jalan-jalan di Sawah Terasering Tegalalang",
+            "Pemandangan hutan & lembah sungai",
+            "Kunjungan desa tradisional Bali",
+            "Bali Swing (petualangan opsional)",
+            "Pengalaman lokal autentik & cerita budaya"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke area Ubud",
+            "Eksplorasi air terjun",
+            "Jalan-jalan di Sawah Terasering Tegalalang",
+            "Pemberhentian titik pandang hutan",
+            "Bali Swing opsional",
+            "Kunjungan desa tradisional"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "east-bali-adventure": {
+        "title": "Tur Petualangan Bali Timur",
+        "description": "Tur Petualangan Bali Timur oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi yang dirancang untuk wisatawan yang mencari eksplorasi alam, petualangan ringan, dan budaya Bali yang autentik.",
+        "subtitle": "Pengalaman Alam & Budaya Pribadi bersama Pakar Lokal",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Eksplorasi Air Terjun Tersembunyi (Tukad Cepung / Goa Raja / Gembleng)",
+            "Istana Air Tirta Gangga",
+            "Pemandangan sawah terasering & pedesaan",
+            "Kunjungan desa tradisional Bali Timur",
+            "Jalur hutan & jalan-jalan alam",
+            "Cerita budaya yang autentik"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke Bali Timur",
+            "Petualangan air terjun",
+            "Istana Air Tirta Gangga",
+            "Eksplorasi pedesaan & sawah terasering",
+            "Kunjungan desa tradisional"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "north-bali-adventure": {
+        "title": "Tur Petualangan Bali Utara",
+        "description": "Tur Petualangan Bali Utara oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi yang dirancang untuk wisatawan yang menyukai udara pegunungan yang sejuk, air terjun, danau, dan lanskap alam.",
+        "subtitle": "Pengalaman Alam & Budaya Pribadi bersama Pakar Lokal",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Petualangan Air Terjun Kembar Banyumala atau Air Terjun Gitgit",
+            "Perjalanan pemandangan melalui Dataran Tinggi Bedugul",
+            "Titik pandang Danau Buyan & Danau Tamblingan",
+            "Trekking hutan ringan & jalan-jalan alam",
+            "Desa tradisional & pemandangan pedesaan",
+            "Cerita budaya yang autentik"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke Bali Utara & area Bedugul",
+            "Eksplorasi air terjun (Banyumala atau Gitgit)",
+            "Titik pandang danau & jalan-jalan alam",
+            "Pemberhentian desa tradisional"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios / Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi berbahasa Inggris",
+          "Bahan bakar, biaya parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari yang sepenuhnya dapat disesuaikan",
+          "Cerita budaya Bali yang autentik",
+          "Air mineral selama tur",
+          "Handuk wajah dingin yang menyegarkan dengan aromaterapi",
+          "Kotak camilan khas Bali",
+          "Standar Layanan Perjalanan SMILE"
+        ],
+        "exclusions": [
+          "Biaya masuk ke atraksi",
+          "Aktivitas ayunan (opsional)",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "nusa-penida-adventure": {
+        "title": "Petualangan Nusa Penida",
+        "description": "Petualangan Nusa Penida oleh Bali Smile Trip & Travel adalah petualangan pulau sehari penuh yang dirancang untuk wisatawan yang mencari lanskap pesisir dramatis, titik pandang ikonik, dan keindahan alam yang masih asli.",
+        "subtitle": "Pengalaman Pulau Pribadi bersama Pakar Lokal",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Rute Barat: Pantai Kelingking, Broken Beach, Angel's Billabong, Crystal Bay",
+            "Mix A: Diamond Beach, Pantai Kelingking, Broken Beach, Angel's Billabong",
+            "Mix B: Rumah Pohon, Thousand Island, Diamond Beach, Pantai Kelingking",
+            "Snorkeling (Paket Gabungan): Gamat Bay, Crystal Bay, Manta Bay"
+          ]
+        },
+        "pricing": {
+          "title": "Pilihan Harga",
+          "categories": [
+            {
+              "name": "Hanya Day Trip",
+              "options": [
+                {
+                  "title": "1 Orang"
+                },
+                {
+                  "title": "2 Orang"
+                },
+                {
+                  "title": "3 Orang"
+                },
+                {
+                  "title": "4 Orang"
+                },
+                {
+                  "title": "5 Orang"
+                }
+              ]
+            },
+            {
+              "name": "Paket Gabungan (Day Trip & Snorkeling)",
+              "options": [
+                {
+                  "title": "1 Orang"
+                },
+                {
+                  "title": "2 Orang"
+                },
+                {
+                  "title": "3 Orang"
+                },
+                {
+                  "title": "4 Orang"
+                },
+                {
+                  "title": "5 Orang"
+                }
+              ]
+            }
+          ]
+        },
+        "inclusions": [
+          "Shuttle Pribadi (Jemput & Antar Hotel)",
+          "Tiket Speedboat Pulang-Pergi",
+          "Air Mineral, Kopi/Teh, Kelapa Muda Segar",
+          "Kotak Sarapan & Makan Siang di Restoran Lokal di Nusa Penida",
+          "Handuk dingin yang menyegarkan dengan aromaterapi",
+          "Biaya Masuk Pelabuhan, Tiket Retribusi & Tiket Masuk di Nusa Penida",
+          "Mobil Pribadi di Nusa Penida",
+          "Sopir Berbahasa Inggris sebagai Pemandu di Nusa Penida",
+          "Perahu, Peralatan, dan Pemandu Bersama (Untuk Snorkeling)"
+        ]
+      },
+      "kintamani-adventure": {
+        "title": "Tur Petualangan Kintamani",
+        "description": "Tur Petualangan Kintamani oleh Bali Smile Trip & Travel adalah perjalanan sehari penuh pribadi yang dirancang untuk wisatawan yang mencari lanskap vulkanik, udara pegunungan yang sejuk, dan petualangan luar ruang.",
+        "subtitle": "Pengalaman Gunung Berapi & Alam Pribadi bersama Pakar Lokal",
+        "duration": "Tur Sehari Penuh - Sekitar 8–10 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Titik pandang Gunung Batur & Danau Batur",
+            "Dataran tinggi Kintamani & pemandangan vulkanik",
+            "Ladang lava hitam (eksplorasi opsional)",
+            "Kunjungan desa pegunungan tradisional",
+            "Pengalaman perkebunan kopi",
+            "Perjalanan pedesaan yang indah"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Fleksibel)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke dataran tinggi Kintamani",
+            "Titik pandang panorama Gunung Batur",
+            "Eksplorasi ladang lava (opsional)",
+            "Kunjungan desa tradisional",
+            "Pemberhentian perkebunan kopi"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Kendaraan Standar",
+          "mainDescription": "(Avanza / Xenia / Nissan Grand Livina – hingga 7 penumpang)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Kursi)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Pemandu wisata lokal Bali profesional & sopir pribadi",
+          "Bahan bakar, parkir & jasa sopir",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Itinerari fleksibel",
+          "Air mineral",
+          "Standar Layanan Perjalanan SMILE™"
+        ],
+        "exclusions": [
+          "Biaya masuk",
+          "Makan & makan siang",
+          "Pengeluaran pribadi"
+        ]
+      },
+      "wine-yard": {
+        "title": "Tur Kebun Anggur",
+        "description": "Tur Kebun Anggur oleh Bali Smile Trip & Travel adalah pengalaman pribadi yang elegan, dirancang untuk wisatawan yang menghargai wine berkualitas, lanskap indah, dan kemewahan yang santai.",
+        "subtitle": "Pengalaman Kebun Anggur & Wine Pribadi di Bali",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Kunjungan ke kebun anggur / wine estate Bali",
+            "Sesi mencicipi wine berpemandu",
+            "Pelajari proses produksi wine lokal",
+            "Pemandangan pedesaan & kebun anggur yang indah",
+            "Pengalaman santai, pribadi, dan tanpa terburu-buru",
+            "Cerita elegan & wawasan lokal"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Pribadi & Santai)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan atau Ubud)",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan pemandangan menuju kebun anggur",
+            "Jalan-jalan di kebun anggur & kunjungan gudang wine",
+            "Pengalaman mencicipi wine berpemandu",
+            "Waktu santai untuk menikmati pemandangan",
+            "Makan siang opsional di restoran kebun anggur"
+          ]
+        },
+        "pricing": {
+          "title": "Harga",
+          "options": [
+            {
+              "title": "Paket Tur"
+            }
+          ]
+        },
+        "inclusions": [
+          "Kendaraan ber-AC pribadi",
+          "Sopir profesional & tuan rumah lokal",
+          "Penjemputan & pengantaran Hotel / Vila",
+          "4 Gelas Wine Tasting Sababay untuk 2 orang",
+          "Piring Cokelat & Kotak Camilan",
+          "Set Up Romantis di Taman (outdoor)",
+          "Pemandu Tur Kebun Anggur",
+          "Handuk wajah dingin yang menyegarkan & air mineral"
+        ],
+        "exclusions": ["Makan siang", "Biaya masuk pura"]
+      },
+      "ubud-rafting-tour": {
+        "title": "Tur Ubud & Rafting",
+        "description": "Tur Ubud & Rafting oleh Bali Smile Trip & Travel memadukan jantung budaya Bali dengan petualangan arung jeram yang mendebarkan.",
+        "subtitle": "Petualangan Budaya & Arung Jeram Pribadi di Bali",
+        "duration": "Sekitar 2 Jam (Rafting)",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Arung Jeram (Sungai Ayung / Telaga Waja – opsional)",
+            "Perjalanan pemandangan pedesaan Ubud",
+            "Sawah Terasering Tegalalang",
+            "Kunjungan air terjun (Ulu Petanu / Tegenungan – opsional)",
+            "Pengalaman desa tradisional Bali",
+            "Cerita budaya yang autentik"
+          ]
+        },
+        "pricing": {
+          "title": "Pilihan Harga",
+          "options": [
+            {
+              "title": "Dewasa"
+            },
+            {
+              "title": "Anak-anak"
+            },
+            {
+              "title": "Trip Pribadi (1 - 3 Orang)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Penjemputan & Pengantaran ke Hotel",
+          "Peralatan Keselamatan & Pemandu Profesional",
+          "Makan Siang Gaya Indonesia",
+          "Air Mineral, Kopi & Teh Sepuasnya",
+          "Loker, Ruang Ganti, Shower Air Panas, Handuk, Sabun & Sampo",
+          "Perlindungan Asuransi"
+        ],
+        "exclusions": ["Biaya masuk Pura, Air Terjun, Sawah Terasering"]
+      },
+      "kintamani-sunrise-jeep": {
+        "title": "Tur Jeep Sunrise Kintamani",
+        "description": "Tur Jeep Sunrise Kintamani oleh Bali Smile Trip & Travel adalah petualangan dini hari yang unik, dirancang untuk menyaksikan matahari terbit yang spektakuler di Gunung Batur tanpa perlu mendaki.",
+        "subtitle": "Petualangan Sunrise Gunung Batur bersama Pakar Lokal",
+        "duration": "Sekitar 6-8 jam",
+        "highlights": {
+          "title": "Sorotan Tur",
+          "items": [
+            "Titik Pandang Sunrise Gunung Batur (dengan Jeep)",
+            "Petualangan Jeep 4WD melintasi medan vulkanik",
+            "Eksplorasi Ladang Lava Hitam",
+            "Suasana pegunungan Kintamani yang sejuk",
+            "Pemberhentian foto pemandangan & cerita budaya",
+            "Kunjungan opsional pemandian air panas atau perkebunan kopi"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari",
+          "subtitle": "(Petualangan Dini Hari)",
+          "pickup": "Penjemputan: Hotel / Vila (Bali Selatan / Ubud) sekitar pukul 02.30 – 03.30 pagi",
+          "dropoff": "Kembali ke hotel / vila",
+          "items": [
+            "Perjalanan ke Kintamani",
+            "Pindah ke Jeep 4WD (Land Cruiser)",
+            "Pengalaman sunrise di titik pandang Gunung Batur",
+            "Eksplorasi ladang lava hitam",
+            "Kunjungan opsional perkebunan kopi / pemandian air panas"
+          ]
+        },
+        "pricing": {
+          "title": "Harga Tur Pribadi",
+          "options": [
+            {
+              "title": "1 Orang"
+            },
+            {
+              "title": "2 Orang"
+            },
+            {
+              "title": "3 Orang"
+            },
+            {
+              "title": "4 Orang"
+            }
+          ]
+        },
+        "inclusions": [
+          "Penjemputan & pengantaran Hotel / Vila",
+          "Kendaraan transfer ber-AC pribadi & Sopir profesional",
+          "Tur Jeep Pribadi (Landcruiser) & operator jeep lokal",
+          "Pemandu Gunung Profesional",
+          "Bantuan Foto & Layanan Video Drone",
+          "Tiket Pemandian Air Panas Alami & Tiket Taman Nasional",
+          "Sarapan & Air mineral",
+          "Tur Perkebunan Kopi"
+        ],
+        "exclusions": [
+          "Makan siang",
+          "Layanan Video Drone Tambahan sebesar IDR 600.000 net"
+        ]
+      },
+      "sacred-path": {
+        "title": "Jalan Suci Menuju Kebangkitan Batin",
+        "description": "Masuki perjalanan spiritual yang benar-benar transformatif, terinspirasi oleh kearifan kuno dan tradisi suci Bali.",
+        "subtitle": "Perjalanan Penyembuhan & Spiritual oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Kunjungan ke Healer & Shaman Bali untuk bimbingan spiritual",
+            "Pembacaan Garis Tangan & Wawasan Jalan Hidup",
+            "Penyembuhan Cakra & Penyelarasan Energi",
+            "Ritual Penyembuhan Pikiran & Tubuh",
+            "Upacara Pemberkatan Air",
+            "Melukat (Ritual Penyucian Suci)"
+          ]
+        }
+      },
+      "shamanic-healing": {
+        "title": "Perjalanan Penyembuhan Shaman Bali & Kebangkitan Diri",
+        "description": "Masuki alam suci di mana kearifan shaman Bali kuno membimbing Anda menuju penyembuhan mendalam, kejernihan spiritual, dan kebangkitan batin.",
+        "subtitle": "Pengalaman Spiritual Suci oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Sesi Penyembuhan Shaman",
+            "Pembacaan Masa Lalu, Kini & Masa Depan",
+            "Pembacaan Garis Tangan & Interpretasi Jiwa",
+            "Penyembuhan Cakra & Penyelarasan Energi",
+            "Ritual Penyembuhan Pikiran & Tubuh",
+            "Upacara Pemberkatan Air Suci",
+            "Ritual Penyucian Melukat"
+          ]
+        }
+      },
+      "holy-water": {
+        "title": "Perjalanan Pemberkatan Air Suci & Penyucian Spiritual",
+        "description": "Rendamkan diri Anda dalam air suci Bali, tempat ritual penyucian, pemberkatan, dan pembaruan telah dipraktikkan selama berabad-abad.",
+        "subtitle": "Pengalaman Penyucian Suci oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Upacara Pemberkatan Air Suci",
+            "Melukat (Ritual Penyucian Suci)",
+            "Penyucian Energi & Perlindungan Spiritual",
+            "Ritual Doa & Persembahan",
+            "Sesi Penyembuhan Pikiran & Jiwa"
+          ]
+        }
+      },
+      "atv-quad": {
+        "title": "Tur ATV Quad Ubud",
+        "description": "Rasakan sensasi mengendarai ATV melintasi lanskap Ubud yang menakjubkan.",
+        "subtitle": "Sebuah Pengalaman Petualangan oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Petualangan Naik ATV Quad (jalur off-road, sungai, desa)",
+            "Pemandangan Ubud yang Autentik",
+            "Keselamatan & Bimbingan Profesional",
+            "Pilihan Naik Sendiri atau Berdua",
+            "Kesempatan Foto di sepanjang jalur pemandangan"
+          ]
+        },
+        "pricing": {
+          "title": "Harga",
+          "options": [
+            {
+              "title": "Naik Sendiri"
+            },
+            {
+              "title": "Naik Berdua"
+            }
+          ]
+        },
+        "inclusions": [
+          "Penjemputan & Pengantaran",
+          "Perjalanan Naik ATV Sekitar 1,5 Jam",
+          "Peralatan Keselamatan & Pemandu Profesional",
+          "Makan Siang Gaya Indonesia",
+          "Air Mineral, Kopi & Teh Sepuasnya",
+          "Loker, Ruang Ganti, Shower Air Panas, Handuk, Sabun & Sampo",
+          "Perlindungan Asuransi"
+        ]
+      },
+      "atv-rafting-combined": {
+        "title": "Tur Gabungan ATV + Rafting",
+        "description": "Bersiaplah untuk petualangan penuh aksi yang memadukan naik ATV off-road dan arung jeram di jantung lanskap alam Bali.",
+        "subtitle": "Pengalaman Petualangan Terbaik oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Petualangan Naik ATV Quad (jalur berlumpur, sungai, desa)",
+            "Pengalaman Arung Jeram (jeram, air terjun)",
+            "Pengalaman Keselamatan Utama (instruktur profesional, asuransi)",
+            "Rute Alam & Pemandangan",
+            "Termasuk Makan Siang",
+            "Momen Foto"
+          ]
+        }
+      },
+      "half-day-adventure": {
+        "title": "Tur Petualangan Setengah Hari Ubud",
+        "description": "Jelajahi jalur hutan off-road, sawah, penyeberangan sungai, dan desa tradisional Bali.",
+        "subtitle": "Naik ATV Quad + Air Terjun / Ayunan / Sawah Terasering",
+        "duration": "Sekitar 5-6 jam",
+        "itinerary": {
+          "title": "Detail Itinerari",
+          "pickup": "08.00 – 09.30 | Penjemputan Hotel",
+          "dropoff": "14.00 – 15.00 | Kembali ke Hotel",
+          "items": [
+            "09.30 – 10.00 | Kedatangan & Briefing Keselamatan",
+            "10.00 – 11.30 | Petualangan ATV Quad",
+            "11.30 – 12.00 | Bersih-bersih & Penyegaran",
+            "12.15 – 13.00 | Tambahan Opsional (Air Terjun / Ayunan / Sawah Terasering)",
+            "13.15 – 14.00 | Makan Siang"
+          ]
+        },
+        "pricing": {
+          "title": "Harga",
+          "options": [
+            {
+              "title": "Naik Sendiri"
+            },
+            {
+              "title": "Naik Berdua"
+            }
+          ]
+        },
+        "inclusions": [
+          "Penjemputan & Pengantaran",
+          "Perjalanan Naik ATV Sekitar 1,5 Jam",
+          "Peralatan Keselamatan & Pemandu Profesional",
+          "Makan Siang Gaya Indonesia",
+          "Air Mineral, Kopi & Teh Sepuasnya",
+          "Loker, Ruang Ganti, Shower Air Panas, Handuk, Sabun & Sampo",
+          "Perlindungan Asuransi"
+        ]
+      },
+      "ubud-rafting": {
+        "title": "Tur Rafting Ubud",
+        "description": "Temukan serunya arung jeram sambil menikmati keindahan alam hutan lebat dan lembah sungai Ubud.",
+        "subtitle": "Pengalaman Arung Jeram oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Petualangan Arung Jeram",
+            "Pemandangan Ubud yang Spektakuler",
+            "Pengalaman Keselamatan Utama & Ramah Keluarga",
+            "Termasuk Makan Siang & Kesempatan Foto"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari Setengah Hari",
+          "pickup": "08.00 – 09.30 | Penjemputan Hotel",
+          "dropoff": "13.30 – 15.00 | Kembali ke hotel",
+          "items": [
+            "09.30 – 10.00 | Briefing keselamatan & pemasangan peralatan",
+            "10.00 – 12.00 | Pengalaman arung jeram",
+            "12.00 – 13.00 | Mandi & makan siang"
+          ]
+        }
+      },
+      "raft-atv-adventure": {
+        "title": "Paket Petualangan Rafting + ATV",
+        "description": "Rasakan kombinasi sempurna antara adrenalin dan alam melalui arung jeram dan petualangan ATV off-road di Ubud.",
+        "subtitle": "Pengalaman Luar Ruang Terbaik oleh Bali Smile Trip & Travel",
+        "duration": "Tur Sehari Penuh",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Arung jeram di sungai Ubud yang indah",
+            "Naik ATV melintasi hutan, sawah & penyeberangan sungai",
+            "Pemandu profesional & peralatan keselamatan lengkap",
+            "Fasilitas mandi & ruang ganti",
+            "Termasuk makan siang prasmanan Indonesia"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari Sehari Penuh",
+          "pickup": "08.00 – 09.30 | Penjemputan Hotel",
+          "dropoff": "14.30 – 16.00 | Kembali ke hotel",
+          "items": [
+            "09.30 – 11.30 | Pengalaman arung jeram",
+            "11.30 – 12.30 | Mandi & makan siang",
+            "12.45 – 14.15 | Petualangan ATV Quad"
+          ]
+        }
+      },
+      "rafting-waterfall": {
+        "title": "Paket Rafting + Air Terjun Alam",
+        "description": "Nikmati perpaduan menyegarkan antara petualangan dan ketenangan dengan arung jeram diikuti kunjungan ke air terjun indah di area Ubud.",
+        "subtitle": "Petualangan & Pelarian Alam oleh Bali Smile Trip & Travel",
+        "duration": "Tur Sehari Penuh",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Arung jeram dengan pemandangan indah",
+            "Kunjungan ke air terjun tersembunyi",
+            "Trekking ringan & kesempatan foto",
+            "Pemandu arung jeram profesional",
+            "Termasuk makan siang"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari Sehari Penuh",
+          "pickup": "08.00 – 09.30 | Penjemputan Hotel",
+          "dropoff": "14.00 – 15.30 | Kembali ke hotel",
+          "items": [
+            "09.30 – 11.30 | Arung jeram",
+            "11.30 – 12.30 | Mandi & makan siang",
+            "12.45 – 13.45 | Kunjungan air terjun"
+          ]
+        }
+      },
+      "terunyan-penglipuran": {
+        "title": "Tur Warisan Budaya Terunyan & Penglipuran",
+        "description": "Temukan dua desa tradisional Bali yang paling unik dalam satu perjalanan bermakna — di mana adat kuno, ritual suci, dan warisan hidup terus membentuk kehidupan sehari-hari.",
+        "subtitle": "Pengalaman Tradisi Bali yang Autentik oleh Bali Smile Trip & Travel",
+        "duration": "Akan Ditentukan",
+        "highlights": {
+          "title": "Sorotan Program",
+          "items": [
+            "Desa Terunyan (Trunyan): Kunjungi desa suci dan pelajari tradisi pemakaman kuno di bawah pohon Taru Menyan.",
+            "Desa Tradisional Penglipuran: Jelajahi salah satu desa tradisional terbersih, berjalan melalui hutan bambu dan pura komunitas.",
+            "Wawasan Budaya & Cerita",
+            "Kesempatan Foto Pemandangan & Budaya"
+          ]
+        },
+        "itinerary": {
+          "title": "Contoh Itinerari Sehari Penuh",
+          "pickup": "08.00 – 09.30 | Penjemputan Hotel",
+          "dropoff": "15.00 – 17.30 | Kembali ke Hotel",
+          "items": [
+            "09.30 – 11.30 | Kunjungan Desa Terunyan (Penyeberangan perahu, jalan-jalan berpemandu)",
+            "12.00 – 13.00 | Makan siang di restoran lokal dengan pemandangan danau/gunung",
+            "13.45 – 15.00 | Eksplorasi Desa Penglipuran"
+          ]
+        }
+      },
+      "custom": {
+        "title": "Perjalanan Bali yang Disesuaikan & Dibuat Khusus",
+        "description": "Perjalanan Bali yang Disesuaikan & Dibuat Khusus kami dirancang untuk wisatawan yang mencari pengalaman perjalanan yang personal, fleksibel, dan bermakna. Baik Anda menginginkan petualangan, relaksasi, pendalaman budaya, penyembuhan spiritual, atau kenyamanan mewah, kami merancang setiap detail sesuai preferensi, kecepatan, dan gaya perjalanan Anda.",
+        "subtitle": "Perjalanan Anda di Bali seharusnya seunik diri Anda.",
+        "duration": "Kustom (Setengah Hari / Sehari Penuh / Multi-Hari)",
+        "highlights": {
+          "title": "Apa yang Dapat Anda Sesuaikan",
+          "items": [
+            "Durasi tur (Setengah Hari / Sehari Penuh / Multi-Hari)",
+            "Aktivitas petualangan (ATV, arung jeram, trekking)",
+            "Tur budaya & wisata",
+            "Perjalanan penyembuhan & spiritual",
+            "Eksplorasi alam & air terjun",
+            "Pengalaman bulan madu & romantis",
+            "Itinerari ramah keluarga",
+            "Tur mewah & pribadi"
+          ]
+        }
+      }
+    },
+    "detail": {
+      "notFound": "Paket tidak ditemukan.",
+      "backToPackages": "Kembali ke Paket",
+      "bookNow": "Pesan {{title}} Anda sekarang!",
+      "pageTitleNotFound": "Paket Tidak Ditemukan"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Galeri",
+    "header": {
+      "heading": "Galeri",
+      "subheading": "Lihat keindahan, budaya, dan momen tak terlupakan yang dialami tamu kami di seluruh Bali."
+    },
+    "imageAlt": "Gambar galeri",
+    "noResults": {
+      "title": "Tidak ada hasil ditemukan",
+      "subtitle": "Coba pencarian atau filter yang berbeda."
+    },
+    "tags": {
+      "All": "Semua",
+      "Ubud": "Ubud",
+      "North Bali": "Bali Utara",
+      "South Bali": "Bali Selatan",
+      "East Bali": "Bali Timur",
+      "Kintamani": "Kintamani",
+      "West Bali": "Bali Barat",
+      "Adventure": "Petualangan",
+      "Vehicles": "Kendaraan"
+    },
+    "items": {
+      "1": {
+        "title": "Jelajah Sawah"
+      },
+      "2": {
+        "title": "Melukat di Tirta Empul"
+      },
+      "3": {
+        "title": "Ayunan"
+      },
+      "4": {
+        "title": "Tubing"
+      },
+      "5": {
+        "title": "Air Terjun Ulu Petanu"
+      },
+      "6": {
+        "title": "Tur Mencicipi Wine"
+      },
+      "7": {
+        "title": "Relief Yeh Pulu"
+      },
+      "8": {
+        "title": "Kelas Membatik"
+      },
+      "9": {
+        "title": "Tur Perkebunan Kopi"
+      },
+      "10": {
+        "title": "Tur Kebun Kopi"
+      },
+      "11": {
+        "title": "Meditasi di Desa Sebatu"
+      },
+      "12": {
+        "title": "Meditasi"
+      },
+      "13": {
+        "title": "Kompleks Rumah Tradisional Bali"
+      },
+      "14": {
+        "title": "Kelas Membuat Perak"
+      },
+      "15": {
+        "title": "Membuat Perak"
+      },
+      "32": {
+        "title": "Menunggang Kuda"
+      },
+      "33": {
+        "title": "ATV Hutan"
+      },
+      "34": {
+        "title": "Briefing Keselamatan ATV"
+      },
+      "40": {
+        "title": "Pura Besakih"
+      },
+      "41": {
+        "title": "Gerbang Surga Pura Lempuyang"
+      },
+      "42": {
+        "title": "Pura Lempuyang"
+      },
+      "43": {
+        "title": "Desa Tenganan"
+      },
+      "45": {
+        "title": "Tur Jeep Sunrise FJ40"
+      },
+      "46": {
+        "title": "Tur Jeep"
+      },
+      "47": {
+        "title": "Trekking Sunrise"
+      },
+      "54": {
+        "title": "Air Terjun Banyumala"
+      },
+      "56": {
+        "title": "Pura Ulun Danu Beratan"
+      },
+      "57": {
+        "title": "Ulun Danu Beratan"
+      },
+      "58": {
+        "title": "Jelajah Sawah"
+      },
+      "62": {
+        "title": "Daihatsu Terios"
+      },
+      "63": {
+        "title": "Nissan Grand Livina VL"
+      },
+      "64": {
+        "title": "Nissan Grand Livina X Gear Long"
+      },
+      "65": {
+        "title": "Toyota Hiace"
+      }
+    }
+  },
+  "book": {
+    "pageTitle": "Pesan Sekarang",
+    "header": {
+      "heading": "Pesan Perjalanan",
+      "subheading": "Siap menjelajahi Bali? Bagikan detail Anda dan kami akan bantu merencanakan petualangan tak terlupakan Anda."
     }
   }
 }

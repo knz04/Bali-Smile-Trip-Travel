@@ -3,6 +3,7 @@ import SearchBar from "../components/SearchBar";
 import SectionHeader from "../components/SectionHeader";
 import { tags, galleryItems } from "../data/gallery";
 import usePageTitle from "../components/PageTitle";
+import { useTranslation } from "react-i18next";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -14,17 +15,28 @@ type GalleryItem = {
 };
 
 export default function Gallery() {
+  const { t } = useTranslation();
   const [activeTag, setActiveTag] = useState("All");
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<GalleryItem | null>(null);
   const [page, setPage] = useState(1);
 
+  // Tags and item titles are stored in data/gallery.ts under their original
+  // English keys/ids; only the displayed label is translated, so filtering
+  // logic below keeps working regardless of the active language.
+  const tagLabel = (tag: string) => t(`gallery.tags.${tag}`, tag);
+  const itemTitle = (item: GalleryItem) =>
+    item.title ? t(`gallery.items.${item.id}.title`, item.title) : "";
+
   const filtered = galleryItems.filter((item) => {
     const matchesTag = activeTag === "All" || item.tags.includes(activeTag);
+    const translatedTitle = itemTitle(item).toLowerCase();
+    const translatedTags = item.tags.map((tg) => tagLabel(tg).toLowerCase());
+    const searchLower = search.toLowerCase();
     const matchesSearch =
       search === "" ||
-      item.title.toLowerCase().includes(search.toLowerCase()) ||
-      item.tags.some((t) => t.toLowerCase().includes(search.toLowerCase()));
+      translatedTitle.includes(searchLower) ||
+      translatedTags.some((tg) => tg.includes(searchLower));
     return matchesTag && matchesSearch;
   });
 
@@ -44,13 +56,13 @@ export default function Gallery() {
     setPage(1);
   };
 
-  usePageTitle("Gallery");
+  usePageTitle(t("gallery.pageTitle"));
 
   return (
     <div>
       <SectionHeader
-        heading="Gallery"
-        subheading="See the beauty, culture, and unforgettable moments our guests experience across Bali."
+        heading={t("gallery.header.heading")}
+        subheading={t("gallery.header.subheading")}
       />
 
       <div className="flex flex-col justify-center gap-6 p-8 md:flex-row md:p-12">
@@ -68,7 +80,7 @@ export default function Gallery() {
                     : "text-primary hover:underline"
                 }`}
               >
-                {tag}
+                {tagLabel(tag)}
               </p>
             ))}
           </div>
@@ -85,13 +97,13 @@ export default function Gallery() {
               >
                 <img
                   src={item.image}
-                  alt={item.title || "Gallery image"}
+                  alt={itemTitle(item) || t("gallery.imageAlt")}
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 {item.title && (
                   <div className="absolute inset-0 flex items-end bg-linear-to-t from-black/50 to-transparent p-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <p className="text-sm font-medium text-white lg:text-base">
-                      {item.title}
+                      {itemTitle(item)}
                     </p>
                   </div>
                 )}
@@ -100,10 +112,10 @@ export default function Gallery() {
             {filtered.length === 0 && (
               <div className="col-span-3 flex flex-col items-center justify-center py-16 text-center">
                 <p className="text-primary text-lg font-medium">
-                  No results found
+                  {t("gallery.noResults.title")}
                 </p>
                 <p className="text-primary mt-1 text-sm font-light opacity-60">
-                  Try a different search or filter.
+                  {t("gallery.noResults.subtitle")}
                 </p>
               </div>
             )}
@@ -161,12 +173,12 @@ export default function Gallery() {
           >
             <img
               src={selected.image}
-              alt={selected.title || "Gallery image"}
+              alt={itemTitle(selected) || t("gallery.imageAlt")}
               className="max-h-[70vh] w-full object-contain"
             />
             <div className="p-4">
               {selected.title && (
-                <p className="text-base font-semibold">{selected.title}</p>
+                <p className="text-base font-semibold">{itemTitle(selected)}</p>
               )}
               <div className="mt-2 flex flex-wrap gap-1">
                 {selected.tags.map((tag) => (
@@ -174,7 +186,7 @@ export default function Gallery() {
                     key={tag}
                     className="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-sm lg:text-base"
                   >
-                    {tag}
+                    {tagLabel(tag)}
                   </span>
                 ))}
               </div>
