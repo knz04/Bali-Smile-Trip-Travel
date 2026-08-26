@@ -1,0 +1,1392 @@
+{
+  "common": {
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "contact": "Contact",
+    "contactDialog": {
+      "title": "Contact Us",
+      "subtitle": "How would you like to contact us?",
+      "whatsapp": "Contact via WhatsApp (Fast response)",
+      "email": "Contact via Email"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "packages": "Packages",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "footer": {
+    "address": "Jalan Candra Ayu 1 B Block 1 No 12 Batubulan, Kec Sukawati, Kabupaten Gianyar 80582",
+    "copyright": "Copyright © 2026 Bali Smile Trip & Travel"
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Private Bali Tours & Certified Drivers.",
+      "titleLine2": "Explore Bali with Comfort.",
+      "subtitle": "Exploring Destinations, Creating Memories.",
+      "description": "Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality.",
+      "ctaBook": "Book Your Tour",
+      "ctaPackages": "View Our Packages"
+    },
+    "welcome": {
+      "title": "Welcome to Bali Smile Trip & Travel",
+      "paragraph1": "Founded by Dewa Wahya, a dedicated Balinese local with many years of experience in the tourism and hospitality industry, our mission is simple: to create personal, meaningful, and unforgettable travel experiences in Bali.",
+      "paragraph2": "We go beyond standard transportation — we share stories, insights, and the authentic essence of Bali during every trip.",
+      "learnMore": "Learn More"
+    },
+    "smile": {
+      "title": "The SMILE Journey Standard",
+      "subtitle": "We ensure every journey is delivered through our SMILE Journey standard.",
+      "items": {
+        "safe": {
+          "title": "Safe",
+          "subtitle": "Your safety is our highest priority throughout the journey."
+        },
+        "mindful": {
+          "title": "Mindful & Smooth",
+          "subtitle": "Thoughtfully planned, seamless, and stress-free travel experience."
+        },
+        "insightful": {
+          "title": "Insightful & Story-Driven",
+          "subtitle": "Every journey is enriched with meaningful stories, culture, and local wisdom."
+        },
+        "luxury": {
+          "title": "Luxury Comfort",
+          "subtitle": "Comfortable, refined, and personalized service at every step."
+        },
+        "enjoyable": {
+          "title": " Enjoyable & Enticing",
+          "subtitle": "A joyful journey that leaves lasting memories and deeper connection, enriched with authentic Balinese storytelling"
+        }
+      }
+    },
+    "key": {
+      "lines": [
+        "Local Experts, Authentic Bali Experiences",
+        "Creating Memories, Not Just Photos",
+        "Tailor-Made Journeys for Every Traveler",
+        "Exploring Destinations, Creating Memories",
+        "Comfortable & Premium Vehicles",
+        "Professional, Certified & Caring Guides",
+        "Honest Pricing with No Hidden Costs",
+        "More Than a Tour — We Truly Care"
+      ]
+    },
+    "packages": {
+      "title": "Our Packages",
+      "subtitle": "Choose your perfect Bali adventure. Every package includes a private driver and personalized service.",
+      "viewDetails": "View Details",
+      "items": {
+        "ubud": "Ubud Essential Tour",
+        "north": "North Bali Trip",
+        "east": "East Bali Trip",
+        "south": "South Bali Trip",
+        "more": "And more..."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Our guests come from around the world, and many return or recommend us.",
+      "items": {
+        "elliott": {
+          "name": "Elliot L.",
+          "review": "Overall, Dewa is an incredibly knowledgeable, kind, safe, and flexible driver who I would recommend to any and all."
+        },
+        "frank": {
+          "name": "Frank C.",
+          "review": "Dewa was exceptional and I highly recommend him to everyone visiting Bali. He is an expert of the island, very quick to communicate and flexible depending on your timing and desires for the day."
+        },
+        "wendy": {
+          "name": "Wendy Y.",
+          "review": "The guide did an excellent job, taking us to many beautiful places with all the necessary extras. A wonderful person, very knowledgeable about Bali's history, 100% recommended. ✨"
+        }
+      }
+    },
+    "cta": {
+      "title": "Let Us Be Your Local Friend in Bali",
+      "description": "Whether you seek romance, family bonding, luxury comfort, or adventurous exploration, Bali Smile Trip & Travel is here to create a journey you'll remember forever.",
+      "planJourney": "Plan Your Journey",
+      "contactWhatsapp": "Contact Us on WhatsApp"
+    }
+  },
+  "about": {
+    "pageTitle": "About",
+    "header": {
+      "heading": "About Us",
+      "subheading": "Your trusted Bali tour and transport provider, where every journey is crafted with heart, passion, and true Balinese hospitality."
+    },
+    "stats": {
+      "items": [
+        "Years of Experience",
+        "Tours Completed",
+        "Happy Guests",
+        "5-Star Reviews"
+      ]
+    },
+    "founder": {
+      "name": "Dewa Wahya",
+      "role": "Founder & Local Travel Expert",
+      "meetTitle": "Meet Our Founder",
+      "intro1": "Dewa Wahya is the founder of Bali Smile Trip & Travel, a trusted Bali tour and travel service specializing in private Bali tours, personalized itineraries, and authentic local experiences.",
+      "intro2": "Born and raised in Bali, Dewa developed a deep connection to the island's culture, traditions, and landscapes knowledge that goes far beyond popular tourist attractions.",
+      "hospitalityHeading": "Hospitality Background & Luxury Service Experience",
+      "hospitalityP1": "Before establishing Bali Smile Trip & Travel, Dewa built his professional career as a Hotel Manager and Luxury Villa Manager in Bali. Working closely with international guests, he gained extensive experience in delivering high-end hospitality standards, personalized service, comfort, privacy, and attention to detail.",
+      "hospitalityP2": "This background allows him to understand exactly what couples, families, and luxury travelers expect from a premium Bali travel experience.",
+      "certifiedHeading": "Certified Tour Guide & Private Driver in Bali",
+      "certifiedP1": "In addition to his hospitality career, Dewa has years of hands-on experience as a certified Bali tour guide and private driver. He combines professional guiding skills with local insight to provide journeys that are safe, smooth, and enjoyable. As a local tour guide in Bali, he offers cultural storytelling, flexible itineraries, and genuine recommendations tailored to each guest's travel style.",
+      "philosophyHeading": "A Philosophy Built on Meaningful Travel",
+      "philosophyIntro": "Dewa's personal philosophy, \"Exploring Destinations, Creating Memories,\" is the foundation of every tour. Each journey is designed to deliver:",
+      "philosophyList": [
+        "Safety and comfort",
+        "Smooth travel flow",
+        "Enjoyable experiences",
+        "Authentic Balinese storytelling"
+      ],
+      "philosophyOutro": "Whether it's a romantic couple's trip, a family holiday, a luxury escape, or an adventure tour, every experience is thoughtfully curated.",
+      "friendHeading": "More Than a Tour — A Local Friend in Bali",
+      "friendP1": "For Dewa, guests are never treated as customers, but as friends visiting his home island. His goal is to ensure every traveler feels comfortable, cared for, and confident throughout their journey in Bali.",
+      "friendP2": "Through Bali Smile Trip & Travel, he continues to share Bali with honesty, professionalism, and heartfelt hospitality."
+    },
+    "why": {
+      "heading": "Here is why Bali Smile Trip & Travel is the perfect choice for you:",
+      "item1": {
+        "title": "Local Experts, Authentic Bali Experiences",
+        "description": "We are local Balinese professionals who truly understand the island its culture, traditions, and hidden gems beyond the usual tourist routes. With us, you don't just visit Bali; you experience it authentically."
+      },
+      "item2": {
+        "title": "Creating Memories, Not Just Photos",
+        "description": "This is more than a tagline it's our philosophy. Every journey is carefully designed to create meaningful moments, emotional connections, and lasting memories, not just great photos."
+      },
+      "item3": {
+        "title": "Tailor-Made Journeys for Every Traveler",
+        "listIntro": "No two travelers are the same and neither are our tours. We create fully customized itineraries for:",
+        "list": [
+          "Romantic escapes for couples",
+          "Safe and enjoyable trips for families",
+          "Exclusive, refined experiences for luxury travelers",
+          "Thrilling routes for adventure lovers"
+        ],
+        "listOutro": "Your interests, pace, and comfort always come first."
+      },
+      "item4": {
+        "title": "Exploring Destinations, Creating Memories",
+        "listIntro": "We are not just drivers. We are certified guides and hosts, who are:",
+        "list": [
+          "Experienced and knowledgeable",
+          "Fluent in English",
+          "Friendly, patient, and attentive"
+        ],
+        "listOutro": "We ensure every journey is delivered through our SMILE Journey standard."
+      },
+      "item5": {
+        "title": "Comfortable & Premium Vehicles",
+        "listIntro": "Travel in comfort with our well maintained vehicles:",
+        "list": [
+          "Clean, modern interiors",
+          "Cold air-conditioning",
+          "Ideal for both short city rides and long scenic journeys"
+        ],
+        "listOutro": "Comfort is a key part of a great travel experience."
+      },
+      "item6": {
+        "title": "Professional, Certified & Caring Guides",
+        "description": "Transparency is our promise. What we quote is what you pay—no surprises, no hidden fees. We believe true quality speaks for itself."
+      },
+      "item7": {
+        "title": "Honest Pricing with No Hidden Costs",
+        "description1": "Our guests come from around the world, and many return or recommend us. Their positive experiences are reflected in our Google Reviews. Real Review, Real Experience.",
+        "description2": "Read what our guests say about us!"
+      },
+      "item8": {
+        "title": "More Than a Tour — We Truly Cares",
+        "listIntro": "We care about:",
+        "list": [
+          "Your experience and comfort",
+          "Respecting Balinese culture and traditions",
+          "Supporting local communities",
+          "Preserving Bali's natural beauty"
+        ],
+        "listOutro": "Travel with purpose, not just destinations."
+      }
+    }
+  },
+  "packages": {
+    "pageTitle": "Packages",
+    "header": {
+      "heading": "Our Packages",
+      "subheading": "Choose your perfect Bali adventure. Every package includes a private driver and personalized service."
+    },
+    "notes": {
+      "title": "Important Notes:",
+      "items": [
+        "These are private tour packages (no sharing with other guests).",
+        "Itinerary is flexible and can be adjusted to your interests.",
+        "Start time is adjustable upon request.",
+        "Advance booking is recommended, typically during peak season."
+      ]
+    },
+    "items": {
+      "ubud-essential": {
+        "title": "Ubud Essential Tour",
+        "description": "The Ubud Essential Tour by Bali Smile Trip & Travel is a private Bali day tour designed to reveal the true soul of Ubud.",
+        "subtitle": "Private Bali Day Tour with Local Expert",
+        "duration": "Full Day Tour - Approx. 8-10 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Traditional Balinese Silver Making Class in Ubud",
+            "Traditional Balinese Batik Painting Class in Ubud",
+            "Tegalalang Rice Terrace & Swing (optional)",
+            "Hidden waterfall surrounded by nature",
+            "Visit to an Old Traditional Balinese House Compound",
+            "Luwak (Civet) Coffee Plantation experience",
+            "Sacred river & natural scenery",
+            "Traditional temple visit with cultural storytelling"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Flexible & Private)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Drop-off: Hotel / Villa",
+          "items": [
+            "Silver Making Workshop – Ubud",
+            "Balinese Batik Painting Making Workshop – Ubud",
+            "Tegalalang Rice Terrace & Swing",
+            "Hidden Waterfall Exploration",
+            "Traditional Balinese House Compound",
+            "Luwak Coffee Plantation",
+            "Temple Visit & Cultural Explanation"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Private Tour",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn",
+              "description": "(More space & premium comfort)"
+            },
+            {
+              "title": "Toyota Hiace – 12 Seater",
+              "description": "(Ideal for families & small groups)"
+            }
+          ]
+        },
+        "inclusions": [
+          "SMILE Journey Service Standard",
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromatherapy",
+          "Local Balinese Snack Box"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "north-bali": {
+        "title": "North Bali Trip",
+        "description": "The North Bali Trip by Bali Smile Trip & Travel is a private full day journey to the cooler, greener, and less crowded side of the island.",
+        "subtitle": "Private Bali Day Tour with Local Expert",
+        "duration": "Full Day Tour - Approx. 10–12 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Ulun Danu Beratan Temple (Iconic lake temple)",
+            "Handara Gate (Scenic photo stop – optional)",
+            "Banyumala Twin Waterfall or Sekumpul Waterfall",
+            "Wanagiri Hidden Hills (Lake viewpoints)",
+            "Scenic mountain & lake drive through Bedugul",
+            "Cultural storytelling & local village insight",
+            "Bali Farm House"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to Bedugul Highlands",
+            "Ulun Danu Beratan Temple",
+            "Handara Gate (optional)",
+            "Waterfall exploration (Banyumala or Gitgit)",
+            "Wanagiri Hidden Hills viewpoint"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "west-bali": {
+        "title": "West Bali Trip",
+        "description": "The West Bali Trip Tour by Bali Smile Trip & Travel is a private full-day journey to one of Bali's most untouched and scenic regions.",
+        "subtitle": "Private Bali Day Tour with Local Expert",
+        "duration": "Full Day Tour - Approx. 10–12 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Taman Ayun Temple",
+            "Pangempu Waterfall",
+            "Traditional local villages (Pinge)",
+            "Jatiluwih Rice Terrace Rice fields & countryside landscapes",
+            "Tanah Lot Temple (coastal temple & sunset views)"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Taman Ayun Temple",
+            "Pangempu Waterfall",
+            "Traditional local villages (Pinge)",
+            "Jatiluwih Rice Terrace Rice fields & countryside landscapes",
+            "Tanah Lot Temple (coastal temple & sunset views)"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "east-bali": {
+        "title": "East Bali Trip",
+        "description": "The East Bali Trip Package by Bali Smile Trip & Travel is a private full-day journey to one of Bali's most culturally rich and scenic regions.",
+        "subtitle": "Private Bali Day Tour with Local Expert",
+        "duration": "Full Day Tour - Approx. 10–12 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Lempuyang Temple (Gate of Heaven) – iconic photo spot",
+            "Tirta Gangga Water Palace",
+            "Taman Ujung (Ujung Water Palace)",
+            "Traditional villages & countryside scenery (Tenganan)",
+            "Scenic drive through East Bali landscapes",
+            "Horse Ridding by the beach",
+            "Cultural storytelling & local insight"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to East Bali",
+            "Lempuyang Temple (Gate of Heaven)",
+            "Tirta Gangga Water Palace",
+            "Taman Ujung Water Palace",
+            "Traditional village exploration"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "south-bali": {
+        "title": "South Bali Trip",
+        "description": "The South Bali Package by Bali Smile Trip & Travel is a private day tour designed to showcase Bali's most iconic coastal destinations, dramatic cliffs, sacred temples, and vibrant beach atmosphere.",
+        "subtitle": "Private Bali Day Tour with Local Expert",
+        "duration": "Full Day Tour - Approx. 8–10 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Uluwatu Temple (cliff-top ocean views & sunset)",
+            "Kecak Fire Dance (optional – evening show)",
+            "Padang Padang Beach or Melasti Beach",
+            "GWK Cultural Park (Garuda Wisnu Kencana)",
+            "Scenic coastal drive across South Bali",
+            "Cultural storytelling & local insight"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Visit GWK Cultural Park",
+            "Beach stop (Padang Padang / Melasti)",
+            "Uluwatu Temple exploration",
+            "Kecak Fire Dance (optional)"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "ubud-adventure": {
+        "title": "Ubud Adventure Tour",
+        "description": "The Ubud Adventure Tour by Bali Smile Trip & Travel is a private full-day experience designed for travelers who love nature, light adventure, and authentic cultural encounters.",
+        "subtitle": "Private Bali Nature & Adventure Experience",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Hidden Waterfall Exploration (Tibumana / Kanto Lampo / Tegenungan)",
+            "Tegalalang Rice Terrace walk",
+            "Jungle & River Valley Views",
+            "Traditional Balinese village visit",
+            "Bali Swing (optional adventure)",
+            "Authentic local experiences & storytelling"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to Ubud area",
+            "Waterfall exploration",
+            "Tegalalang Rice Terrace walk",
+            "Jungle viewpoint stop",
+            "Optional Bali Swing",
+            "Traditional village visit"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "east-bali-adventure": {
+        "title": "East Bali Adventure Tour",
+        "description": "The East Bali Adventure Tour by Bali Smile Trip & Travel is a private full-day journey designed for travelers who seek nature exploration, light adventure, and authentic Balinese culture.",
+        "subtitle": "Private Nature & Cultural Experience with Local Expert",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Hidden Waterfall Exploration (Tukad Cepung / Goa Raja / Gembleng)",
+            "Tirta Gangga Water Palace",
+            "Scenic rice terraces & countryside views",
+            "Traditional East Bali village visit",
+            "Jungle paths & nature walks",
+            "Authentic cultural storytelling"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to East Bali",
+            "Waterfall adventure experience",
+            "Tirta Gangga Water Palace",
+            "Countryside & rice terrace exploration",
+            "Traditional village visit"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "north-bali-adventure": {
+        "title": "North Bali Adventure Tour",
+        "description": "The North Bali Adventure Tour by Bali Smile Trip & Travel is a private full-day journey designed for travelers who love cool mountain air, waterfalls, lakes, and natural landscapes.",
+        "subtitle": "Private Nature & Cultural Experience with Local Expert",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Banyumala Twin Waterfall or Gitgit Waterfall adventure",
+            "Scenic drive through Bedugul Highlands",
+            "Lake Buyan & Lake Tamblingan viewpoints",
+            "Light jungle trekking & nature walks",
+            "Traditional village and countryside scenery",
+            "Authentic cultural storytelling"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to North Bali & Bedugul area",
+            "Waterfall exploration (Banyumala or Gitgit)",
+            "Lake viewpoints & nature walks",
+            "Traditional village stop"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Daihatsu Terios/ Suzuki Ertiga / Nissan Grand Livina VL / Nissan Grand Livina X-Gear – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private, air-conditioned vehicle",
+          "Professional local Bali tour guide & English Speaking private driver",
+          "Fuel, parking fees & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Fully customizable itinerary",
+          "Authentic Balinese cultural storytelling",
+          "Mineral water during the tour",
+          "Refreshing Cold Face Towel With Aromaterapi",
+          "Local Balinese Snack Box",
+          "SMILE Journey Service Standard"
+        ],
+        "exclusions": [
+          "Entrance fees to attractions",
+          "Swing activities (optional)",
+          "Meals & lunch",
+          "Personal expenses"
+        ]
+      },
+      "nusa-penida-adventure": {
+        "title": "Nusa Penida Adventure",
+        "description": "The Nusa Penida Adventure by Bali Smile Trip & Travel is a full-day island adventure designed for travelers who seek dramatic coastal landscapes, iconic viewpoints, and raw natural beauty.",
+        "subtitle": "Private Island Experience with Local Expert",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "West trip: Klingking beach, broken beach, angel billabong, crystal bay",
+            "Mix A: diamond beach, klingking beach, broken beach, angel billabong",
+            "Mix B: treehouse, thousand island, diamond beach, klingking beach",
+            "Snorkeling (Combine Package): gamat bay, crystal bay, manta bay"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing Options",
+          "categories": [
+            {
+              "name": "Day Trip Only",
+              "options": [
+                {
+                  "title": "1 Person"
+                },
+                {
+                  "title": "2 Persons"
+                },
+                {
+                  "title": "3 Persons"
+                },
+                {
+                  "title": "4 Persons"
+                },
+                {
+                  "title": "5 Persons"
+                }
+              ]
+            },
+            {
+              "name": "Combine Package (Day Trip & Snorkling)",
+              "options": [
+                {
+                  "title": "1 Person"
+                },
+                {
+                  "title": "2 Persons"
+                },
+                {
+                  "title": "3 Persons"
+                },
+                {
+                  "title": "4 Persons"
+                },
+                {
+                  "title": "5 Persons"
+                }
+              ]
+            }
+          ]
+        },
+        "inclusions": [
+          "Private Shuttle (Pick up & Drop Hotel)",
+          "Return Fast Boat Ticket",
+          "Mineral Water, Coffee/Tea, Fresh Young Coconut",
+          "Breakfast Box & Lunch at Local Restaurant at Nusa Penida",
+          "Refreshing Cold Towel with aromatherapy",
+          "Airport Entrance Fee, Retribution Ticket & Entrance Fee Ticket at Nusa Penida",
+          "Private Car at Nusa Penida",
+          "English Speaking Driver as Guide at Nusa Penida",
+          "Sharing Boat, Equipment, and Guide (For Snorkeling)"
+        ]
+      },
+      "kintamani-adventure": {
+        "title": "Kintamani Adventure Tour",
+        "description": "The Kintamani Adventure Tour by Bali Smile Trip & Travel is a private full-day journey designed for travelers who seek volcanic landscapes, cool mountain air, and outdoor adventure.",
+        "subtitle": "Private Volcano & Nature Experience with Local Expert",
+        "duration": "Full Day Tour - Approx. 8–10 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Mount Batur & Lake Batur viewpoint",
+            "Kintamani highlands & volcanic scenery",
+            "Black lava fields (optional exploration)",
+            "Traditional mountain village visit",
+            "Coffee plantation experience",
+            "Scenic countryside drives"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Flexible)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to Kintamani highlands",
+            "Mount Batur panoramic viewpoint",
+            "Lava field exploration (optional)",
+            "Traditional village visit",
+            "Coffee plantation stop"
+          ]
+        },
+        "vehicles": {
+          "mainTitle": "Standard Vehicle",
+          "mainDescription": "(Avanza / Xenia / Nissan Grand Livina – up to 7 passengers)",
+          "upgrade": [
+            {
+              "title": "Innova Reborn"
+            },
+            {
+              "title": "Toyota Hiace (12 Seater)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private air-conditioned vehicle",
+          "Professional local Bali tour guide & private driver",
+          "Fuel, parking & driver service",
+          "Hotel / Villa pick-up & drop-off",
+          "Flexible itinerary",
+          "Mineral water",
+          "SMILE Journey™ Service Standard"
+        ],
+        "exclusions": ["Entrance fees", "Meals & lunch", "Personal expenses"]
+      },
+      "wine-yard": {
+        "title": "Wine Yard Tour",
+        "description": "The Wine Yard Tour by Bali Smile Trip & Travel is a private, refined experience designed for travelers who appreciate fine wine, scenic landscapes, and relaxed luxury.",
+        "subtitle": "Private Vineyard & Wine Experience in Bali",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Visit a Bali vineyard / wine estate",
+            "Guided wine tasting session",
+            "Learn about local wine production",
+            "Scenic countryside & vineyard views",
+            "Relaxed, private, and unhurried experience",
+            "Elegant storytelling & local insight"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Private & Leisurely)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali or Ubud)",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Scenic drive to the vineyard",
+            "Vineyard walk & wine cellar visit",
+            "Guided wine tasting experience",
+            "Leisure time to relax & enjoy the view",
+            "Optional lunch at vineyard restaurant"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing",
+          "options": [
+            {
+              "title": "Tour Package"
+            }
+          ]
+        },
+        "inclusions": [
+          "Private air-conditioned vehicle",
+          "Professional driver & local host",
+          "Hotel / Villa pick-up & drop-off",
+          "4 Glasses Wine tasting of Sababay each for 2 person",
+          "Chocolate Plater & Snack Box",
+          "Romantic Set Up in the Garden (outdoor)",
+          "Guide Winery Tour",
+          "Refreshing Cold Face Towel & Mineral water"
+        ],
+        "exclusions": ["Lunch", "Entrance Fee at Temple"]
+      },
+      "ubud-rafting-tour": {
+        "title": "Ubud & Rafting Tour",
+        "description": "The Ubud & Rafting Tour by Bali Smile Trip & Travel combines Bali's cultural heart with an exciting white water rafting adventure.",
+        "subtitle": "Private Culture & White Water Adventure in Bali",
+        "duration": "Approx 2 Hours Duration (Rafting)",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "White Water Rafting (Ayung River / Telaga Waja – optional)",
+            "Ubud scenic countryside drive",
+            "Tegalalang Rice Terrace",
+            "Waterfall visit (Ulu Petanu / Tegenungan – optional)",
+            "Traditional Balinese village experience",
+            "Authentic cultural storytelling"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing Options",
+          "options": [
+            {
+              "title": "Adult"
+            },
+            {
+              "title": "Child"
+            },
+            {
+              "title": "Private Trip (1 - 3 Persons)"
+            }
+          ]
+        },
+        "inclusions": [
+          "Pick up & Return Transport to Hotel",
+          "Safety Equipment & Professional Guide",
+          "Indonesian Style Lunch",
+          "Free Flow Mineral Water, Coffee & Tea",
+          "Locker, Changing Room, Hot Shower, Towel, Soap & Shampoo",
+          "Insurance Coverage"
+        ],
+        "exclusions": ["Entrance Fee at Temple, Waterfall, Rice Terrace"]
+      },
+      "kintamani-sunrise-jeep": {
+        "title": "Kintamani Sunrise Jeep Tour",
+        "description": "The Kintamani Sunrise Jeep Tour by Bali Smile Trip & Travel is a unique early-morning adventure designed to witness the spectacular sunrise over Mount Batur without hiking.",
+        "subtitle": "Mount Batur Sunrise Adventure with Local Expert",
+        "duration": "Approx. 6-8 hours",
+        "highlights": {
+          "title": "Tour Highlights",
+          "items": [
+            "Mount Batur Sunrise Viewpoint (by Jeep)",
+            "4WD Jeep adventure through volcanic terrain",
+            "Black Lava Fields exploration",
+            "Cool Kintamani mountain atmosphere",
+            "Scenic photo stops & storytelling",
+            "Optional hot spring or coffee plantation visit"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "subtitle": "(Early Morning Adventure)",
+          "pickup": "Pick-up: Hotel / Villa (South Bali / Ubud) around 02:30 – 03:30 AM",
+          "dropoff": "Return to hotel / villa",
+          "items": [
+            "Drive to Kintamani",
+            "Transfer to 4WD Jeep (Land Cruiser)",
+            "Sunrise experience at Mount Batur viewpoint",
+            "Black lava field exploration",
+            "Optional coffee plantation / hot spring visit"
+          ]
+        },
+        "pricing": {
+          "title": "Private Tour Pricing",
+          "options": [
+            {
+              "title": "1 Person"
+            },
+            {
+              "title": "2 Persons"
+            },
+            {
+              "title": "3 Persons"
+            },
+            {
+              "title": "4 Persons"
+            }
+          ]
+        },
+        "inclusions": [
+          "Hotel / Villa pick-up & drop-off",
+          "Private air-conditioned transfer vehicle & Professional driver",
+          "Private Jeep Tour (Landcruiser) & local jeep operator",
+          "Professional Mountain Guide",
+          "Photo Assistance & Video Drone Service",
+          "Ticket Natural Hot Spring & National Park Ticket",
+          "Breakfast & Mineral water",
+          "Coffee Plantation Tour"
+        ],
+        "exclusions": [
+          "Lunch",
+          "Additional Video Drone Service at IDR 600,000 net"
+        ]
+      },
+      "sacred-path": {
+        "title": "The Sacred Path of Inner Awakening",
+        "description": "Step into a deeply transformative spiritual journey inspired by Bali's ancient wisdom and sacred traditions.",
+        "subtitle": "Healing & Spiritual Journey by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "Visit Balinese Healer & Shaman for spiritual guidance",
+            "Palm Reading & Life Path Insight",
+            "Chakra Healing & Energy Alignment",
+            "Mind & Body Healing Ritual",
+            "Water Blessing Ceremony",
+            "Melukat (Sacred Purification Ritual)"
+          ]
+        }
+      },
+      "shamanic-healing": {
+        "title": "Balinese Shamanic Healing & Awakening Journey",
+        "description": "Enter a sacred realm where ancient Balinese shamanic wisdom guides you toward deep healing, spiritual clarity, and inner awakening.",
+        "subtitle": "A Sacred Spiritual Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "Shamanic Healing Session",
+            "Past, Present & Future Reading",
+            "Palm Reading & Soul Interpretation",
+            "Chakra Healing & Energy Alignment",
+            "Mind & Body Healing Ritual",
+            "Sacred Water Blessing Ceremony",
+            "Melukat Purification Ritual"
+          ]
+        }
+      },
+      "holy-water": {
+        "title": "Holy Water Blessing & Spiritual Cleansing Journey",
+        "description": "Immerse yourself in the sacred waters of Bali, where ancient rituals of purification, blessing, and renewal have been practiced for centuries.",
+        "subtitle": "A Sacred Purification Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "Holy Water Blessing Ceremony",
+            "Melukat (Sacred Purification Ritual)",
+            "Energy Cleansing & Spiritual Protection",
+            "Prayer & Offering Ritual",
+            "Mind & Spirit Healing Session"
+          ]
+        }
+      },
+      "atv-quad": {
+        "title": "ATV Quad Ubud Tour",
+        "description": "Experience the thrill of riding an ATV through the heart of Ubud's breathtaking landscapes.",
+        "subtitle": "An Adventure Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "ATV Quad Adventure Ride (off-road trails, rivers, villages)",
+            "Authentic Ubud Scenery",
+            "Safety & Professional Guidance",
+            "Single or Tandem Ride Options",
+            "Photo Opportunities along scenic tracks"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing",
+          "options": [
+            {
+              "title": "Single Ride"
+            },
+            {
+              "title": "Tandem Ride"
+            }
+          ]
+        },
+        "inclusions": [
+          "Pick Up & Return transport",
+          "ATV Ride trip Approximately 1.5 Hours",
+          "Safety Equipment & Professional Guide",
+          "Indonesian Style Lunch",
+          "Free Flow Mineral Water, Coffee & Tea",
+          "Locker, Changing Room, Hot Shower, Towel, Soap & Shampoo",
+          "Insurance Coverage"
+        ]
+      },
+      "atv-rafting-combined": {
+        "title": "ATV + Rafting Combined Tour",
+        "description": "Get ready for an action-packed adventure combining off-road ATV riding and white water rafting in the heart of Bali's natural landscapes.",
+        "subtitle": "Ultimate Adventure Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "ATV Quad Adventure Ride (muddy tracks, rivers, villages)",
+            "White Water Rafting Experience (rapids, waterfalls)",
+            "Safety First Experience (professional instructors, insurance)",
+            "Natural & Scenic Routes",
+            "Lunch Included",
+            "Photo Moments"
+          ]
+        }
+      },
+      "half-day-adventure": {
+        "title": "Half Day Adventure Ubud Tour",
+        "description": "Navigate through off-road jungle trails, rice paddies, river crossings, and traditional Balinese villages.",
+        "subtitle": "ATV Quad Ride + Waterfall / Swing / Rice Terrace",
+        "duration": "Approx. 5-6 hours",
+        "itinerary": {
+          "title": "Itinerary Detail",
+          "pickup": "08.00 – 09.30 | Hotel Pick-up",
+          "dropoff": "14.00 – 15.00 | Return to Hotel",
+          "items": [
+            "09.30 – 10.00 | Arrival & Safety Briefing",
+            "10.00 – 11.30 | ATV Quad Adventure",
+            "11.30 – 12.00 | Clean Up & Refresh",
+            "12.15 – 13.00 | Optional Add-On (Waterfall / Swing / Rice Terrace)",
+            "13.15 – 14.00 | Lunch"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing",
+          "options": [
+            {
+              "title": "Single Ride"
+            },
+            {
+              "title": "Tandem Ride"
+            }
+          ]
+        },
+        "inclusions": [
+          "Pick Up & Return transport",
+          "ATV Ride trip Approximately 1.5 Hours",
+          "Safety Equipment & Professional Guide",
+          "Indonesian Style Lunch",
+          "Free Flow Mineral Water, Coffee & Tea",
+          "Locker, Changing Room, Hot Shower, Towel, Soap & Shampoo",
+          "Insurance Coverage"
+        ]
+      },
+      "ubud-rafting": {
+        "title": "Ubud Rafting Tour",
+        "description": "Discover the excitement of white water rafting while enjoying the natural beauty of Ubud's lush jungle and river valleys.",
+        "subtitle": "White Water Rafting Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "White Water Rafting Adventure",
+            "Spectacular Ubud Scenery",
+            "Safety First Experience & Family Friendly",
+            "Lunch Included & Photo Opportunities"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Half Day Itinerary",
+          "pickup": "08.00 – 09.30 | Hotel Pick-up",
+          "dropoff": "13.30 – 15.00 | Return to hotel",
+          "items": [
+            "09.30 – 10.00 | Safety briefing & equipment fitting",
+            "10.00 – 12.00 | White water rafting experience",
+            "12.00 – 13.00 | Shower & lunch"
+          ]
+        }
+      },
+      "raft-atv-adventure": {
+        "title": "Rafting + ATV Adventure Package",
+        "description": "Experience the perfect combination of adrenaline and nature through white water rafting and an off-road ATV adventure in Ubud.",
+        "subtitle": "Ultimate Outdoor Experience by Bali Smile Trip & Travel",
+        "duration": "Full Day Tour",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "White water rafting on a scenic Ubud river",
+            "ATV ride through jungle, rice fields & river crossings",
+            "Professional guides & full safety equipment",
+            "Shower & changing facilities",
+            "Indonesian buffet lunch included"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Full Day Itinerary",
+          "pickup": "08.00 – 09.30 | Hotel pick-up",
+          "dropoff": "14.30 – 16.00 | Return to hotel",
+          "items": [
+            "09.30 – 11.30 | White water rafting experience",
+            "11.30 – 12.30 | Shower & lunch",
+            "12.45 – 14.15 | ATV Quad adventure"
+          ]
+        }
+      },
+      "rafting-waterfall": {
+        "title": "Rafting + Waterfall Nature Package",
+        "description": "Enjoy a refreshing blend of adventure and tranquility with white water rafting followed by a visit to a beautiful waterfall in the Ubud area.",
+        "subtitle": "Adventure & Nature Escape by Bali Smile Trip & Travel",
+        "duration": "Full Day Tour",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "Scenic white water rafting",
+            "Visit to a hidden waterfall",
+            "Light trekking & photo opportunities",
+            "Professional rafting guides",
+            "Lunch included"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Full Day Itinerary",
+          "pickup": "08.00 – 09.30 | Hotel pick-up",
+          "dropoff": "14.00 – 15.30 | Return to hotel",
+          "items": [
+            "09.30 – 11.30 | White water rafting",
+            "11.30 – 12.30 | Shower & lunch",
+            "12.45 – 13.45 | Waterfall visit"
+          ]
+        }
+      },
+      "terunyan-penglipuran": {
+        "title": "Terunyan & Penglipuran Cultural Heritage Tour",
+        "description": "Discover two of Bali's most unique traditional villages in one meaningful journey—where ancient customs, sacred rituals, and living heritage continue to shape everyday life.",
+        "subtitle": "Authentic Balinese Tradition Experience by Bali Smile Trip & Travel",
+        "duration": "TBA",
+        "highlights": {
+          "title": "Program Highlights",
+          "items": [
+            "Terunyan Village (Trunyan): Visit the sacred village and learn about the ancient funerary tradition beneath the Taru Menyan tree.",
+            "Penglipuran Traditional Village: Explore one of the cleanest traditional villages, walk through bamboo forests and community temples.",
+            "Cultural Insight & Storytelling",
+            "Scenic & Cultural Photo Opportunities"
+          ]
+        },
+        "itinerary": {
+          "title": "Sample Full Day Itinerary",
+          "pickup": "08.00 – 09.30 | Hotel Pick-up",
+          "dropoff": "15.00 – 17.30 | Return to Hotel",
+          "items": [
+            "09.30 – 11.30 | Terunyan Village Visit (Boat crossing, guided walk)",
+            "12.00 – 13.00 | Lunch at a local restaurant with lake/mountain views",
+            "13.45 – 15.00 | Penglipuran Village Exploration"
+          ]
+        }
+      },
+      "custom": {
+        "title": "Tailor-Made & Customized Bali Journeys",
+        "description": "Our Tailor-Made & Customized Bali Journeys are designed for travelers who seek a personalized, flexible, and meaningful travel experience. Whether you desire adventure, relaxation, cultural immersion, spiritual healing, or luxury comfort, we craft every detail to reflect your preferences, pace, and travel style.",
+        "subtitle": "Your journey in Bali should be as unique as you are.",
+        "duration": "Custom (Half Day / Full Day / Multi-Day)",
+        "highlights": {
+          "title": "What You Can Customize",
+          "items": [
+            "Tour duration (Half Day / Full Day / Multi-Day)",
+            "Adventure activities (ATV, rafting, trekking)",
+            "Cultural & sightseeing tours",
+            "Healing & spiritual journeys",
+            "Nature & waterfall exploration",
+            "Honeymoon & romantic experiences",
+            "Family-friendly itineraries",
+            "Luxury & private tours"
+          ]
+        }
+      }
+    },
+    "detail": {
+      "notFound": "Package not found.",
+      "backToPackages": "Back to Packages",
+      "bookNow": "Book your {{title}} now!",
+      "pageTitleNotFound": "Package Not Found"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Gallery",
+    "header": {
+      "heading": "Gallery",
+      "subheading": "See the beauty, culture, and unforgettable moments our guests experience across Bali."
+    },
+    "imageAlt": "Gallery image",
+    "noResults": {
+      "title": "No results found",
+      "subtitle": "Try a different search or filter."
+    },
+    "tags": {
+      "All": "All",
+      "Ubud": "Ubud",
+      "North Bali": "North Bali",
+      "South Bali": "South Bali",
+      "East Bali": "East Bali",
+      "Kintamani": "Kintamani",
+      "West Bali": "West Bali",
+      "Adventure": "Adventure",
+      "Vehicles": "Vehicles"
+    },
+    "items": {
+      "1": {
+        "title": "Rice Field Trek"
+      },
+      "2": {
+        "title": "Tirta Empul Melukat"
+      },
+      "3": {
+        "title": "Swing"
+      },
+      "4": {
+        "title": "Tubing"
+      },
+      "5": {
+        "title": "Ulu Petanu Waterfall"
+      },
+      "6": {
+        "title": "Wine Tasting Tour"
+      },
+      "7": {
+        "title": "Yeh Pulu Relief"
+      },
+      "8": {
+        "title": "Batik Class"
+      },
+      "9": {
+        "title": "Coffee Plantation Tour"
+      },
+      "10": {
+        "title": "Coffee Plant Tour"
+      },
+      "11": {
+        "title": "Meditation at Sebatu Village"
+      },
+      "12": {
+        "title": "Meditation"
+      },
+      "13": {
+        "title": "Traditional Balinese House Compound"
+      },
+      "14": {
+        "title": "Silver Making Class"
+      },
+      "15": {
+        "title": "Silver Making"
+      },
+      "32": {
+        "title": "Horse Riding"
+      },
+      "33": {
+        "title": "Jungle ATV"
+      },
+      "34": {
+        "title": "ATV Safety Briefing"
+      },
+      "40": {
+        "title": "Besakih Temple"
+      },
+      "41": {
+        "title": "Heaven Gate Lempuyang Temple"
+      },
+      "42": {
+        "title": "Lempuyang Temple"
+      },
+      "43": {
+        "title": "Tenganan Village"
+      },
+      "45": {
+        "title": "FJ40 Jeep Sunrise Tour"
+      },
+      "46": {
+        "title": "Jeep Tour"
+      },
+      "47": {
+        "title": "Sunrise Trekking"
+      },
+      "54": {
+        "title": "Banyumala Waterfall"
+      },
+      "56": {
+        "title": "Ulun Danu Beratan Temple"
+      },
+      "57": {
+        "title": "Ulun Danu Beratan"
+      },
+      "58": {
+        "title": "Rice Field Trek"
+      },
+      "62": {
+        "title": "Daihatsu Terios"
+      },
+      "63": {
+        "title": "Nissan Grand Livina VL"
+      },
+      "64": {
+        "title": "Nissan Grand Livina X Gear Long"
+      },
+      "65": {
+        "title": "Toyota Hiace"
+      }
+    }
+  },
+  "book": {
+    "pageTitle": "Book Now",
+    "header": {
+      "heading": "Book a Trip",
+      "subheading": "Ready to explore Bali? Share your details and we'll help plan your unforgettable adventure."
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../Button";
+import { useTranslation } from "react-i18next";
 
 interface PackageCardProps {
   id: number;
@@ -14,6 +15,8 @@ export default function PackageCard({
   title,
   description,
 }: PackageCardProps) {
+  const { t } = useTranslation();
+
   return (
     <div className="flex w-[90%] flex-row items-center justify-center gap-4 lg:w-[80%]">
       <img
@@ -27,7 +30,7 @@ export default function PackageCard({
           {description}
         </p>
         <Link to={`/packages/${id}`}>
-          <Button>Learn More</Button>
+          <Button>{t("common.learnMore")}</Button>
         </Link>
       </div>
     </div>

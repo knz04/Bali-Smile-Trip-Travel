@@ -28,6 +28,7 @@ import hiace from "../assets/cars/hiace.webp";
 
 export const packages = [
   {
+    id: "ubud-essential",
     image: ubudImage,
     title: "Ubud Essential Tour",
     subtitle: "Private Bali Day Tour with Local Expert",
@@ -120,6 +121,7 @@ export const packages = [
     },
   },
   {
+    id: "north-bali",
     image: northBaliImage,
     title: "North Bali Trip",
     subtitle: "Private Bali Day Tour with Local Expert",
@@ -197,6 +199,7 @@ export const packages = [
     ],
   },
   {
+    id: "west-bali",
     image: westBaliImage,
     title: "West Bali Trip",
     subtitle: "Private Bali Day Tour with Local Expert",
@@ -272,6 +275,7 @@ export const packages = [
     ],
   },
   {
+    id: "east-bali",
     image: eastBaliImage,
     title: "East Bali Trip",
     subtitle: "Private Bali Day Tour with Local Expert",
@@ -349,6 +353,7 @@ export const packages = [
     ],
   },
   {
+    id: "south-bali",
     image: southBaliImage,
     title: "South Bali Trip",
     subtitle: "Private Bali Day Tour with Local Expert",
@@ -424,6 +429,7 @@ export const packages = [
     ],
   },
   {
+    id: "ubud-adventure",
     image: ubudAdventureImage,
     title: "Ubud Adventure Tour",
     subtitle: "Private Bali Nature & Adventure Experience",
@@ -501,6 +507,7 @@ export const packages = [
     ],
   },
   {
+    id: "east-bali-adventure",
     image: eastBaliAdventureImage,
     title: "East Bali Adventure Tour",
     subtitle: "Private Nature & Cultural Experience with Local Expert",
@@ -577,6 +584,7 @@ export const packages = [
     ],
   },
   {
+    id: "north-bali-adventure",
     image: northBaliAdventureImage,
     title: "North Bali Adventure Tour",
     subtitle: "Private Nature & Cultural Experience with Local Expert",
@@ -652,6 +660,7 @@ export const packages = [
     ],
   },
   {
+    id: "nusa-penida-adventure",
     image: nusaPenidaAdventureImage,
     title: "Nusa Penida Adventure",
     subtitle: "Private Island Experience with Local Expert",
@@ -728,6 +737,7 @@ export const packages = [
     ],
   },
   {
+    id: "kintamani-adventure",
     image: kintamaAdventureImage,
     title: "Kintamani Adventure Tour",
     subtitle: "Private Volcano & Nature Experience with Local Expert",
@@ -796,6 +806,7 @@ export const packages = [
     exclusions: ["Entrance fees ", "Meals & lunch ", "Personal expenses "],
   },
   {
+    id: "wine-yard",
     image: wineYardImage,
     title: "Wine Yard Tour",
     subtitle: "Private Vineyard & Wine Experience in Bali",
@@ -853,6 +864,7 @@ export const packages = [
     exclusions: ["Lunch ", "Entrance Fee at Temple "],
   },
   {
+    id: "ubud-rafting-tour",
     image: ubudRaftImage,
     title: "Ubud & Rafting Tour",
     subtitle: "Private Culture & White Water Adventure in Bali",
@@ -897,6 +909,7 @@ export const packages = [
     exclusions: ["Entrance Fee at Temple, Waterfall , Rice Terrace "],
   },
   {
+    id: "kintamani-sunrise-jeep",
     image: kintamaniSunriseJeepImage,
     title: "Kintamani Sunrise Jeep Tour",
     subtitle: "Mount Batur Sunrise Adventure with Local Expert",
@@ -958,6 +971,7 @@ export const packages = [
     ],
   },
   {
+    id: "sacred-path",
     image: sacredPathImage,
     title: "The Sacred Path of Inner Awakening",
     subtitle: "Healing & Spiritual Journey by Bali Smile Trip & Travel",
@@ -982,6 +996,7 @@ export const packages = [
     },
   },
   {
+    id: "shamanic-healing",
     image: shamanicHealingImage,
     title: "Balinese Shamanic Healing & Awakening Journey",
     subtitle: "A Sacred Spiritual Experience by Bali Smile Trip & Travel",
@@ -1007,6 +1022,7 @@ export const packages = [
     },
   },
   {
+    id: "holy-water",
     image: holyWaterImage,
     title: "Holy Water Blessing & Spiritual Cleansing Journey",
     subtitle: "A Sacred Purification Experience by Bali Smile Trip & Travel",
@@ -1030,6 +1046,7 @@ export const packages = [
     },
   },
   {
+    id: "atv-quad",
     image: atvQuadImage,
     title: "ATV Quad Ubud Tour",
     subtitle: "An Adventure Experience by Bali Smile Trip & Travel",
@@ -1072,6 +1089,7 @@ export const packages = [
     ],
   },
   {
+    id: "atv-rafting-combined",
     image: atvRaftingCombinedImage,
     title: "ATV + Rafting Combined Tour",
     subtitle: "Ultimate Adventure Experience by Bali Smile Trip & Travel",
@@ -1096,6 +1114,7 @@ export const packages = [
     },
   },
   {
+    id: "half-day-adventure",
     image: halfDayImage,
     title: "Half Day Adventure Ubud Tour",
     subtitle: "ATV Quad Ride + Waterfall / Swing / Rice Terrace",
@@ -1140,6 +1159,7 @@ export const packages = [
     ],
   },
   {
+    id: "ubud-rafting",
     image: ubudRaftingImage,
     title: "Ubud Rafting Tour",
     subtitle: "White Water Rafting Experience by Bali Smile Trip & Travel",
@@ -1172,6 +1192,7 @@ export const packages = [
     },
   },
   {
+    id: "raft-atv-adventure",
     image: raftAtvAdventureImage,
     title: "Rafting + ATV Adventure Package",
     subtitle: "Ultimate Outdoor Experience by Bali Smile Trip & Travel",
@@ -1205,6 +1226,7 @@ export const packages = [
     },
   },
   {
+    id: "rafting-waterfall",
     image: raftingWaterfallImage,
     title: "Rafting + Waterfall Nature Package",
     subtitle: "Adventure & Nature Escape by Bali Smile Trip & Travel",
@@ -1238,6 +1260,7 @@ export const packages = [
     },
   },
   {
+    id: "terunyan-penglipuran",
     image: terunyanImage, // Make sure to import this or replace with correct var
     title: "Terunyan & Penglipuran Cultural Heritage Tour",
     subtitle:
@@ -1271,6 +1294,7 @@ export const packages = [
     },
   },
   {
+    id: "custom",
     image: customImage,
     title: "Tailor-Made & Customized Bali Journeys",
     subtitle: "Your journey in Bali should be as unique as you are.",

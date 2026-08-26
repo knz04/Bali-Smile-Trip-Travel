@@ -1,19 +1,12 @@
 import bg from "../../assets/hero-home.webp";
-
-const lines = [
-  "Local Experts, Authentic Bali Experiences",
-  "Creating Memories, Not Just Photos",
-  "Tailor-Made Journeys for Every Traveler",
-  "Exploring Destinations, Creating Memories",
-  "Comfortable & Premium Vehicles",
-  "Professional, Certified & Caring Guides",
-  "Honest Pricing with No Hidden Costs",
-  "More Than a Tour — We Truly Care",
-];
+import { useTranslation } from "react-i18next";
 
 const arcOffsets = [0, 10, 16, 20, 20, 16, 10, 0];
 
 export default function Key() {
+  const { t } = useTranslation();
+  const lines = t("home.key.lines", { returnObjects: true }) as string[];
+
   return (
     <div
       className="relative h-[80vh] bg-cover bg-bottom sm:h-[60vh] lg:h-screen"
