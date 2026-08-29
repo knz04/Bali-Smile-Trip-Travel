@@ -12,7 +12,7 @@ import ubudRaftImage from "../assets/packages/ubud-raft.webp";
 import kintamaniSunriseJeepImage from "../assets/packages/kintamani-sunrise-jeep.webp";
 import atvQuadImage from "../assets/packages/atv-quad.webp";
 import atvRaftingCombinedImage from "../assets/packages/rafting-atv.webp";
-import ubudRaftingImage from "../assets/packages/ubud-rafting.webp";
+import ubudRaftingImage from "../assets/packages/ubud-rafting-tour.webp";
 import raftingWaterfallImage from "../assets/packages/rafting-waterfall.webp";
 import customImage from "../assets/packages/custom.webp";
 import raftAtvAdventureImage from "../assets/packages/raft-atv-adventure.webp";
